@@ -91,7 +91,7 @@ function Index() {
       </section>
 
       {/* PROBLEMA: 25% do ano */}
-      <section className="relative px-4 py-20 border-t border-border/50">
+      <section className="section-light relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
             25% do ano passou... E você prometeu que <span className="text-blood">2026 seria diferente</span>
@@ -113,7 +113,7 @@ function Index() {
       </section>
 
       {/* PERGUNTA QUE EVITA */}
-      <section className="relative px-4 py-20 bg-card/50 border-y border-border/50">
+      <section className="section-dark relative px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood mb-6">
             A pergunta que você evita responder:
@@ -144,7 +144,7 @@ function Index() {
       </section>
 
       {/* DOMESTICADO */}
-      <section className="relative px-4 py-20">
+      <section className="section-light relative px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Você acha que está vivendo... mas está apenas <span className="text-blood">sobrevivendo</span>
@@ -219,7 +219,7 @@ function Index() {
       </section>
 
       {/* SAÍDA - PREÇO BRUTAL */}
-      <section className="relative px-4 py-20 border-t border-border/50">
+      <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             A saída existe. Mas ela cobra um <span className="text-blood">preço brutal.</span>
@@ -326,7 +326,7 @@ function Index() {
       </section>
 
       {/* +10.000 HOMENS */}
-      <section className="px-4 py-20 border-b border-border/50">
+      <section className="section-light px-4 py-20 border-b border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Mais de <span className="text-blood">10.000 homens</span> já quebraram o ciclo da mediocridade
@@ -356,7 +356,7 @@ function Index() {
       </section>
 
       {/* RENASCIMENTO 3 ETAPAS */}
-      <section className="px-4 py-20">
+      <section className="section-dark px-4 py-20">
         <SectionDivider />
         <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight text-blood text-shadow-blood">
           O Renascimento em 3 etapas
@@ -422,7 +422,7 @@ function Index() {
       </section>
 
       {/* RESULTADO 63 DIAS */}
-      <section className="px-4 py-20 bg-card/40 border-y border-border/50">
+      <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Ao final dos <span className="text-blood">63 dias</span>,<br />você não será mais o mesmo.
@@ -450,7 +450,7 @@ function Index() {
       </section>
 
       {/* O QUE VOCÊ VAI RECEBER */}
-      <section className="px-4 py-20">
+      <section className="section-dark px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
             O que você vai receber:
@@ -489,7 +489,7 @@ function Index() {
       </section>
 
       {/* BÔNUS */}
-      <section className="px-4 py-20 bg-card/40 border-y border-border/50">
+      <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
@@ -512,7 +512,7 @@ function Index() {
       </section>
 
       {/* OFERTA / PREÇO */}
-      <section id="checkout" className="px-4 py-20 relative">
+      <section id="checkout" className="section-dark px-4 py-20 relative">
         <div className="absolute inset-0 bg-radial-blood opacity-50 pointer-events-none" />
         <div className="relative mx-auto max-w-2xl">
           <p className="text-center font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood">
@@ -583,7 +583,7 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section className="px-4 py-20 border-t border-border/50">
+      <section className="section-light px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
             Perguntas frequentes
