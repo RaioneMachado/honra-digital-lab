@@ -553,7 +553,7 @@ function Index() {
             </div>
 
             <div className="mt-8 flex justify-center">
-              <HonorButton size="lg">Quero renascer agora</HonorButton>
+              <HonorButton size="lg" href="https://pay.kirvano.com/e22a8f74-2b91-4f51-bdd0-d047754ba28e">Quero renascer agora</HonorButton>
             </div>
 
             <p className="mt-6 text-center font-display text-xs md:text-sm uppercase tracking-[0.3em] text-muted-foreground">
