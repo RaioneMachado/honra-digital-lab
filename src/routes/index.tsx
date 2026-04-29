@@ -542,10 +542,10 @@ function Index() {
                 De <span className="line-through">R$ 297</span> por:
               </p>
               <p className="mt-3 font-display text-5xl md:text-7xl text-blood text-shadow-blood leading-none">
-                6x R$ 7,87
+                6x R$ 5,66
               </p>
               <p className="mt-3 text-muted-foreground">
-                Ou <span className="text-foreground font-semibold">R$ 39,90</span> à vista no PIX
+                Ou <span className="text-foreground font-semibold">R$ 29,90</span> à vista no PIX
               </p>
             </div>
 
