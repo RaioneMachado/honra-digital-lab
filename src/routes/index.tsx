@@ -27,7 +27,6 @@ function Index() {
       <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm sticky top-0 z-40">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
-            <img src={crownLogo} alt="Homem de Honra" width={32} height={32} className="h-8 w-8" />
             <span className="font-display text-lg md:text-xl tracking-widest text-foreground">
               HOMEM DE <span className="text-blood">HONRA</span>
             </span>
@@ -43,9 +42,8 @@ function Index() {
       <section className="relative px-4 pt-16 pb-20 md:pt-24 md:pb-28">
         <div className="absolute inset-0 bg-radial-blood opacity-60 pointer-events-none" />
         <div className="relative mx-auto max-w-5xl text-center">
-          <img src={crownLogo} alt="" width={64} height={64} className="mx-auto h-14 w-14 md:h-20 md:w-20 mb-6 animate-flicker" />
           <h1 className="font-display text-4xl sm:text-5xl md:text-7xl leading-[1.05] uppercase tracking-tight">
-            <span className="text-blood text-shadow-blood">63 dias</span> para reconstruir
+            <span className="text-blood text-shadow-blood">2 meses de total foco</span> para reconstruir
             <br className="hidden md:block" /> completamente sua disciplina,
             <br className="hidden md:block" /> foco e propósito
           </h1>
@@ -66,7 +64,7 @@ function Index() {
                 <p className="font-display text-3xl md:text-5xl uppercase text-muted-foreground/60">Dia 1</p>
               </div>
               <div className="p-4 md:p-6 text-center">
-                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">Dia 63</p>
+                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">2 meses depois</p>
               </div>
             </div>
           </div>
@@ -421,11 +419,11 @@ function Index() {
         </div>
       </section>
 
-      {/* RESULTADO 63 DIAS */}
+      {/* RESULTADO */}
       <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Ao final dos <span className="text-blood">63 dias</span>,<br />você não será mais o mesmo.
+            Ao final dos <span className="text-blood">2 meses de total foco</span>,<br />você não será mais o mesmo.
           </h2>
           <p className="mt-4 text-center font-display text-xl md:text-3xl uppercase text-muted-foreground">
             E o mundo vai perceber.
@@ -463,7 +461,7 @@ function Index() {
           <div className="mt-12 grid gap-5 md:grid-cols-2">
             {[
               { title: "Curso completo", desc: "Cada aula direta, sem enrolação, indo no ponto do que você precisa mudar." },
-              { title: "Sistema dos 63 dias", desc: "A fórmula prática, passo a passo, que destrói sua versão fraca e forja disciplina diária." },
+              { title: "Sistema dos 2 meses de total foco", desc: "A fórmula prática, passo a passo, que destrói sua versão fraca e forja disciplina diária." },
               { title: "Materiais complementares", desc: "Suporte escrito para aplicar na prática." },
               { title: "Diversos bônus", desc: "Aprofundando áreas específicas que aceleram sua evolução." },
               { title: "Atualizações futuras", desc: "Acesso às grandes atualizações do conteúdo de Homem de Honra." },
@@ -526,7 +524,7 @@ function Index() {
             <ul className="space-y-4">
               {[
                 "Acesso vitalício ao sistema completo",
-                "Sistema dos 63 dias",
+                "Sistema dos 2 meses de total foco",
                 "Curso completo em vídeo",
                 "4 Bônus exclusivos",
                 "Atualizações futuras",
@@ -633,7 +631,7 @@ function Index() {
               { q: "Quando recebo o acesso?", a: "Imediatamente após aprovação do pagamento." },
               { q: "Como acesso o conteúdo?", a: "Login e senha enviados por email + SMS. Acesso por qualquer dispositivo." },
               { q: "Quanto tempo de conteúdo?", a: "4 horas de vídeo + 200 páginas de material escrito + ferramentas práticas." },
-              { q: "Em quanto tempo vejo resultados?", a: "Primeiros sinais: 7 dias. Mudança radical: 30 dias. Transformação completa: 63 dias." },
+              { q: "Em quanto tempo vejo resultados?", a: "Primeiros sinais: 7 dias. Mudança radical: 30 dias. Transformação completa: 2 meses de total foco." },
               { q: "Por que tão barato?", a: "Porque queremos alcançar milhões de homens, não apenas ricos." },
               { q: "Vai aumentar o preço?", a: "Sim. Esta é a última turma com este valor promocional." },
             ].map((item, i) => (
@@ -667,7 +665,6 @@ function Index() {
       <section className="px-4 py-24 relative overflow-hidden border-t border-border/50">
         <div className="absolute inset-0 bg-radial-blood opacity-70 pointer-events-none" />
         <div className="relative mx-auto max-w-3xl text-center">
-          <img src={crownLogo} alt="" width={64} height={64} className="mx-auto h-14 w-14 md:h-20 md:w-20 mb-6 animate-flicker" />
           <h2 className="font-display text-3xl md:text-6xl uppercase tracking-tight leading-tight">
             A escolha é sua.<br />
             <span className="text-blood text-shadow-blood">Mas ela expira hoje.</span>
@@ -682,7 +679,6 @@ function Index() {
       <footer className="px-4 py-10 border-t border-border bg-background">
         <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src={crownLogo} alt="Homem de Honra" width={28} height={28} className="h-7 w-7" />
             <span className="font-display text-sm md:text-base tracking-widest text-muted-foreground">
               HOMEM DE <span className="text-blood">HONRA</span>™
             </span>
