@@ -357,7 +357,7 @@ function Index() {
       <section className="section-dark px-4 py-20">
         <SectionDivider />
         <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight text-blood text-shadow-blood">
-          O Renascimento em 3 etapas
+          O Renascimento em 3 fases
         </h2>
 
         <div className="mt-16 mx-auto max-w-5xl space-y-20">
@@ -368,8 +368,8 @@ function Index() {
               img: phaseDemolition,
               icon: <Skull className="h-7 w-7" />,
               text: [
-                "Nesta primeira fase devastadora, você vai identificar e destruir sistematicamente tudo que te mantém preso ao piloto automático: vícios digitais que drenam sua energia vital, distrações que fragmentam seu foco, crenças limitantes que sabotam seu potencial e a necessidade doentia de aprovação externa que te faz viver para os outros.",
-                "É impossível construir uma casa sólida sobre fundações podres. Antes de se tornar quem você deve ser, você precisa eliminar completamente quem você não quer mais ser — e essa fase é o choque de realidade brutal que separa homens sérios de eternos sonhadores, liberando sua mente para criação real pela primeira vez em anos.",
+                "Nessa primeira etapa avassaladora, você vai mapear e arrasar de forma sistemática tudo que te mantém amarrado ao automático: vícios digitais que sugam sua energia vital, distrações que partem seu foco em pedaços, crenças limitantes que minam seu potencial e a obsessão doentia por aprovação alheia que te obriga a viver pelos outros.",
+                "É impossível erguer uma construção sólida sobre alicerces apodrecidos. Antes de virar quem você deve ser, é preciso aniquilar por completo quem você não quer mais ser — e esta etapa é o tapa de realidade que separa homens de verdade dos sonhadores eternos, abrindo sua mente para criar de fato pela primeira vez em anos.",
               ],
             },
             {
@@ -378,8 +378,8 @@ function Index() {
               img: phaseReconstruction,
               icon: <Shield className="h-7 w-7" />,
               text: [
-                "Com o terreno mental completamente limpo, você constrói um novo \"você\" desde os alicerces: cria um código de conduta pessoal inviolável que funciona como lei interna, desenvolve rituais sagrados que transformam dor em disciplina automática e reprograma completamente sua autoimagem interna através de ações concretas, não afirmações vazias.",
-                "Enquanto métodos tradicionais tentam adicionar hábitos bons a uma personalidade defeituosa, aqui você reconstrói sua identidade fundamental — disciplina deixa de ser \"algo que você faz\" e vira \"quem você é\", criando um sistema interno que te obriga a cumprir sua palavra e recupera seu respeito próprio de forma inquestionável.",
+                "Com o terreno mental totalmente limpo, você levanta um novo \"você\" desde a base: estabelece um código pessoal inquebrantável que opera como lei interior, cria rituais sagrados que convertem dor em disciplina automática e reprograma por completo sua autoimagem por meio de ações reais, e não de afirmações vazias.",
+                "Enquanto os métodos tradicionais tentam encaixar bons hábitos em uma personalidade quebrada, aqui você refaz sua identidade pelas raízes — disciplina deixa de ser \"algo que você executa\" para virar \"aquilo que você é\", formando um sistema interno que te força a honrar a palavra dada e devolve seu respeito próprio sem qualquer dúvida.",
               ],
             },
             {
@@ -388,8 +388,8 @@ function Index() {
               img: phaseExpansion,
               icon: <CrownIcon className="h-7 w-7" />,
               text: [
-                "Com fundações de aço estabelecidas, você expande seu domínio sobre todas as áreas da vida: blinda sua energia contra vampiros emocionais e situações que antes te derrubavam, transforma sua mente em ferramenta de criação imparável que materializa objetivos com precisão cirúrgica e assume controle absoluto sobre sua realidade externa através do domínio interno completo.",
-                "Aqui você transcende definitivamente a mentalidade de sobrevivência e entra em modo de conquista permanente — não reage mais aos problemas, mas os antecipa e os usa como combustível para crescimento exponencial, tornando-se um homem que naturalmente inspira respeito, lidera pelo exemplo e constrói um legado duradouro enquanto a maioria ainda luta contra si mesma.",
+                "Com bases de aço fincadas, você amplia seu domínio sobre todas as esferas da vida: blinda sua energia contra vampiros emocionais e cenários que antes te derrubavam, converte sua mente em uma ferramenta de criação implacável que concretiza metas com precisão cirúrgica e assume controle total sobre a sua realidade externa por meio do domínio interno completo.",
+                "Aqui você ultrapassa de vez a mentalidade de sobrevivência e entra em modo de conquista contínua — não responde mais aos problemas, mas os antevê e os transforma em combustível para um crescimento exponencial, virando um homem que desperta respeito naturalmente, conduz pelo exemplo e ergue um legado duradouro, enquanto a maior parte ainda briga contra si mesma.",
               ],
             },
           ].map((phase) => (
