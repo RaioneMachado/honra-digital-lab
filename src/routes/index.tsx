@@ -463,7 +463,7 @@ function Index() {
               { title: "Sistema dos 2 meses de total foco", desc: "A fórmula prática, passo a passo, que destrói sua versão fraca e forja disciplina diária." },
               { title: "Materiais complementares", desc: "Suporte escrito para aplicar na prática." },
               { title: "Diversos bônus", desc: "Aprofundando áreas específicas que aceleram sua evolução." },
-              { title: "Atualizações futuras", desc: "Acesso às grandes atualizações do conteúdo de Homem de Honra." },
+              { title: "Atualizações futuras", desc: "Acesso às grandes atualizações do conteúdo de Valhalla Foco." },
             ].map((item) => (
               <div key={item.title} className="bg-card border border-border rounded-xl p-6 hover:border-blood/50 transition-colors group">
                 <div className="flex items-start gap-4">
@@ -494,7 +494,7 @@ function Index() {
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-left">
             <p>
-              Além de todo o conteúdo de Homem de Honra, decidi adicionar bônus exclusivos para
+              Além de todo o conteúdo de Valhalla Foco, decidi adicionar bônus exclusivos para
               garantir mais ainda que você se torne um homem de verdade.
             </p>
             <p className="text-foreground font-semibold">
@@ -589,18 +589,18 @@ function Index() {
             Para eliminar toda e qualquer dúvida que ainda resta na sua cabeça.
           </p>
 
-          {/* Sobre Homem de Honra */}
+          {/* Sobre Valhalla Foco */}
           <div className="mt-12 bg-card rounded-xl border border-border p-6 md:p-8">
             <h3 className="font-display text-xl md:text-2xl uppercase tracking-tight text-blood">
-              O que é "Homem de Honra"?
+              O que é "Valhalla Foco"?
             </h3>
             <div className="mt-4 space-y-4 text-base text-muted-foreground leading-relaxed">
               <p>
-                Homem de Honra não é uma marca. É um movimento — uma filosofia de vida criada para
+                Valhalla Foco não é uma marca. É um movimento — uma filosofia de vida criada para
                 quem se recusa a viver no piloto automático.
               </p>
               <p>
-                Enquanto o mundo tenta te transformar em mais um, Homem de Honra existe pra
+                Enquanto o mundo tenta te transformar em mais um, Valhalla Foco existe pra
                 reprogramar tua mente, reforjar tua disciplina e reativar teu propósito.
               </p>
               <p>
@@ -683,7 +683,7 @@ function Index() {
             </span>
           </div>
           <p className="text-xs md:text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Homem de Honra. Todos os direitos reservados.
+            © {new Date().getFullYear()} Valhalla Foco. Todos os direitos reservados.
           </p>
         </div>
       </footer>
