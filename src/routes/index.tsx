@@ -220,27 +220,27 @@ function Index() {
       <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            A saída existe. Mas ela cobra um <span className="text-blood">preço brutal.</span>
+            Existe uma saída. Mas ela tem um <span className="text-blood">custo cruel.</span>
           </h2>
 
           <div className="mt-10 text-center text-lg md:text-xl text-muted-foreground space-y-2">
-            <p>Não é questão de dinheiro.</p>
-            <p>Nem de ter sorte.</p>
-            <p>Muito menos de "ser diferente".</p>
+            <p>Não é uma questão de grana.</p>
+            <p>Tampouco de sorte.</p>
+            <p>Muito menos de "nascer especial".</p>
           </div>
 
           <div className="mt-10 text-center">
             <p className="inline-block font-display text-xl md:text-3xl uppercase tracking-tight bg-blood/15 px-6 py-3 text-foreground">
-              É sobre ter coragem para <span className="text-blood">renunciar.</span>
+              É sobre ter coragem de <span className="text-blood">abrir mão.</span>
             </p>
           </div>
 
           <ul className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             {[
-              { strong: "Renunciar aos vícios", rest: "que te aliviam por 30 minutos... e te destroem por 30 anos." },
-              { strong: "Renunciar às pessoas que sempre te arrastam para o passado", rest: "e te condenam a uma vida medíocre que você não quer mais viver." },
-              { strong: "Renunciar aos velhos hábitos, comportamentos e ambientes", rest: "que te puxam de volta para o buraco sempre que você tenta subir." },
-              { strong: "Renunciar à versão confortável de si mesmo", rest: "— aquela que tem desculpas prontas, que \"vai começar segunda-feira\", que sempre encontra um motivo para não agir." },
+              { strong: "Abrir mão dos vícios", rest: "que te dão alívio por meia hora... e te aniquilam por três décadas." },
+              { strong: "Abrir mão das pessoas que sempre te empurram de volta ao passado", rest: "e te prendem a uma vida sem brilho que você já não suporta mais." },
+              { strong: "Abrir mão dos hábitos, comportamentos e ambientes antigos", rest: "que te jogam de volta no fundo do poço toda vez que você tenta escalar." },
+              { strong: "Abrir mão da versão acomodada de você mesmo", rest: "— aquela com desculpas no bolso, que \"começa segunda-feira\", que sempre arruma um pretexto para não agir." },
             ].map((it, i) => (
               <li key={i} className="flex gap-3">
                 <span className="text-blood text-xl leading-none">›</span>
@@ -250,15 +250,15 @@ function Index() {
           </ul>
 
           <div className="mt-14 rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
-            <img src={demonsImg} alt="Homem cercado pelos próprios demônios" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
+            <img src={demonsImg} alt="Homem rodeado pelos próprios demônios" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
           </div>
 
           <div className="mt-12 max-w-2xl mx-auto text-center">
             <p className="text-base md:text-lg text-muted-foreground mb-6">
-              Você está realmente disposto a matar a versão atual de si mesmo para que uma versão
-              superior possa nascer?
+              Você está mesmo pronto para enterrar a sua versão de hoje para que uma versão
+              maior possa surgir?
             </p>
-            <HonorButton size="lg">Sim! Estou preparado!</HonorButton>
+            <HonorButton size="lg">Sim! Estou pronto!</HonorButton>
           </div>
         </div>
       </section>
