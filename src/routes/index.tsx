@@ -42,18 +42,18 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-60 pointer-events-none" />
         <div className="relative mx-auto max-w-5xl text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-7xl leading-[1.05] uppercase tracking-tight">
-            <span className="text-blood text-shadow-blood">2 meses de total foco</span> para reconstruir
-            <br className="hidden md:block" /> completamente sua disciplina,
-            <br className="hidden md:block" /> foco e propósito
+            <span className="text-blood text-shadow-blood">2 meses de total foco</span> para refazer
+            <br className="hidden md:block" /> por inteiro sua disciplina,
+            <br className="hidden md:block" /> concentração e missão
           </h1>
           <p className="mt-5 font-display text-lg md:text-2xl uppercase tracking-wider text-muted-foreground">
-            Mesmo se você já tentou tudo e falhou
+            Ainda que você já tenha tentado de tudo e fracassado
           </p>
 
           <div className="mt-10 mx-auto max-w-4xl rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
             <img
               src={heroImg}
-              alt="Transformação do homem: do desespero à vitória"
+              alt="Transformação masculina: do fundo do poço à conquista"
               width={1920}
               height={1080}
               className="w-full h-auto block"
@@ -63,15 +63,15 @@ function Index() {
                 <p className="font-display text-3xl md:text-5xl uppercase text-muted-foreground/60">Dia 1</p>
               </div>
               <div className="p-4 md:p-6 text-center">
-                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">2 meses depois</p>
+                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">Após 2 meses</p>
               </div>
             </div>
           </div>
 
           <p className="mt-8 max-w-3xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed">
-            De homem perdido no piloto automático para líder que inspira respeito —
-            o método exato usado por mais de <span className="text-foreground font-semibold">10.000 homens</span>{" "}
-            para quebrar o ciclo da mediocridade para sempre.
+            De homem desorientado vivendo no automático a líder que conquista respeito —
+            o protocolo exato aplicado por mais de <span className="text-foreground font-semibold">10.000 homens</span>{" "}
+            para romper de vez com o ciclo da vida medíocre.
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4">
