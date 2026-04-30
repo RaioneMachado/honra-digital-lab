@@ -91,19 +91,19 @@ function Index() {
       <section className="section-light relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
-            25% do ano passou... E você prometeu que <span className="text-blood">2026 seria diferente</span>
+            Já se foi 25% do ano... E você jurou que <span className="text-blood">2026 seria outro</span>
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
-            <p>Lembra da motivação de janeiro? Das promessas que fez para si mesmo na virada do ano?</p>
-            <p>Mas olhe honestamente para sua rotina atual... seus relacionamentos... seus hábitos...</p>
-            <p className="text-foreground">É exatamente a mesma vida medíocre de 12 meses atrás.</p>
+            <p>Recorda do ânimo de janeiro? Das juras que fez a si próprio na passagem do ano?</p>
+            <p>Mas encare com sinceridade sua rotina de hoje... suas relações... seus costumes...</p>
+            <p className="text-foreground">É praticamente a mesma vida sem brilho de um ano atrás.</p>
             <p className="text-foreground font-semibold border-l-4 border-blood pl-4">
-              Pior ainda: você já está mentalizando 2027 como "o ano da virada" — a mesma mentira que
-              conta para si mesmo há quantos anos?
+              E o pior: você já está fantasiando 2027 como "o ano definitivo" — a mesma mentira que
+              repete para si mesmo há quantas temporadas?
             </p>
             <p>
-              Enquanto isso, todos ao seu redor estão prosperando. E você continua no mesmo lugar,
-              desperdiçando mais um ano do seu potencial.
+              Enquanto isso, quem está à sua volta avança. E você segue parado no mesmo ponto,
+              jogando fora mais um ano do seu potencial.
             </p>
           </div>
         </div>
@@ -113,28 +113,28 @@ function Index() {
       <section className="section-dark relative px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood mb-6">
-            A pergunta que você evita responder:
+            A questão que você foge de encarar:
           </p>
           <h3 className="font-display text-2xl md:text-3xl leading-tight text-foreground">
-            Se você não conseguiu mudar em 365 dias... o que te faz pensar que vai conseguir no próximo ano?
+            Se em 365 dias você não conseguiu se transformar... por que acreditar que vai dar certo no ano que vem?
           </h3>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             <p className="text-foreground font-semibold">
-              Sem um sistema real. Sem um método comprovado. Apenas com a mesma "força de vontade"
-              que te decepcionou por 4 meses consecutivos.
+              Sem nenhum sistema concreto. Sem nenhum método validado. Só com a mesma "vontade"
+              que te traiu por 4 meses seguidos.
             </p>
-            <p>Daqui a 1 ano, você vai estar:</p>
+            <p>Em 1 ano, você vai estar:</p>
             <ul className="space-y-3 pl-1">
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Olhando no espelho o mesmo homem frustrado de hoje?</li>
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Ganhando o mesmo salário, vivendo a mesma rotina vazia?</li>
-              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente vai ser o homem que sempre soube que poderia ser?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Encarando no espelho o mesmo homem insatisfeito de agora?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Recebendo o mesmo salário, repetindo a mesma rotina sem sentido?</li>
+              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente se tornará o homem que sempre soube ser capaz de ser?</li>
             </ul>
             <p className="text-foreground bg-blood/10 p-4 rounded-md border border-blood/30">
-              Porque uma coisa é certa: <strong>2026 está acabando com ou sem sua transformação.</strong>
+              Porque algo é certo: <strong>2026 vai terminar — com ou sem a sua virada.</strong>
             </p>
             <p className="text-foreground">
-              A diferença é se você vai entrar em 2027 como a mesma pessoa... ou como alguém
-              completamente reconstruído.
+              A questão é se você vai começar 2027 sendo a mesma pessoa... ou alguém
+              totalmente refeito.
             </p>
           </div>
         </div>
@@ -144,48 +144,49 @@ function Index() {
       <section className="section-light relative px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Você acha que está vivendo... mas está apenas <span className="text-blood">sobrevivendo</span>
+            Você imagina que está vivendo... mas está só <span className="text-blood">sobrevivendo</span>
           </h2>
           <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             <p>
-              Acorda. Café. Trânsito. Trabalho. Almoço vendo YouTube. Mais trabalho. Volta pra casa
-              exausto. Sofá. Celular. Netflix. Dorme tarde. Repete.
+              Desperta. Café. Engarrafamento. Expediente. Almoço vendo YouTube. Mais expediente.
+              Retorna em casa esgotado. Sofá. Celular. Netflix. Cama tarde. E recomeça.
             </p>
             <p>
-              Fim de semana? Mais celular. Mais Netflix. Talvez um bar. Domingo de ansiedade pensando
-              na segunda-feira.
+              Sábado e domingo? Mais celular. Mais Netflix. Quem sabe um bar. Domingo de aflição
+              pensando na segunda.
             </p>
             <p className="text-foreground font-semibold">
-              E assim você desperdiça semanas. Meses. Anos inteiros.
+              E é dessa forma que você joga fora semanas. Meses. Anos por completo.
             </p>
           </div>
 
           <div className="mt-12 text-center">
             <p className="inline-block font-display text-2xl md:text-4xl uppercase tracking-tight bg-blood/15 px-6 py-3 border-l-4 border-r-4 border-blood">
-              Parabéns. Você foi <span className="text-blood">domesticado</span>.
+              Felicitações. Você foi <span className="text-blood">amansado</span>.
             </p>
           </div>
 
           <div className="mt-12 rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
-            <img src={domesticatedImg} alt="Homem domesticado pelo sistema" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
+            <img src={domesticatedImg} alt="Homem amansado pelo sistema" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
           </div>
 
           <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            <p>Não precisaram de algemas ou correntes para te prender.</p>
+            <p>Não foi preciso algemas nem correntes para te aprisionar.</p>
             <p>
-              Bastou manter sua mente ocupada o suficiente para que você nunca percebesse que vive
-              como um hamster numa roda — correndo sem parar, mas nunca saindo do lugar.
+              Foi suficiente manter sua cabeça ocupada o bastante para que você jamais notasse que
+              existe igual a um hamster girando a rodinha — em movimento sem cessar, mas sempre
+              no mesmo ponto.
             </p>
           </div>
 
           <div className="mt-12 mx-auto max-w-2xl bg-card rounded-xl p-6 md:p-10 border border-border shadow-brutal">
-            <p className="text-foreground/90 mb-4">Enquanto você vive no piloto automático...</p>
+            <p className="text-foreground/90 mb-4">Enquanto a sua vida segue no automático...</p>
             <ul className="space-y-3 text-muted-foreground">
               {[
-                "Seus melhores anos escorrem pelos dedos",
-                "Seu potencial apodrece sem uso",
-                "Sua energia vital é sugada por distrações",
-                "Sua vida se torna estatística de mediocridade",
+                "Seus anos mais valiosos vão escapando entre os dedos",
+                "Seu potencial estraga sem nunca ser usado",
+                "Sua energia vital é drenada por distrações",
+                "Sua existência vira mais um número da mediocridade",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Skull className="h-5 w-5 text-blood mt-0.5 flex-shrink-0" />
@@ -195,21 +196,21 @@ function Index() {
             </ul>
 
             <p className="mt-8 font-display text-sm uppercase tracking-[0.2em] text-blood">
-              A pergunta que ninguém quer fazer:
+              A pergunta que ninguém tem coragem de fazer:
             </p>
             <div className="mt-3 space-y-3 text-muted-foreground">
-              <p>Se você continuar nesse sistema por mais 5 anos... que homem você vai se tornar?</p>
-              <p>Um zumbi corporativo de 40 anos, gordo, sem energia, sem propósito, contando os dias para a aposentadoria?</p>
-              <p className="text-foreground">Ou você vai quebrar as correntes invisíveis e reconstruir uma vida que vale a pena viver?</p>
+              <p>Se você permanecer nessa engrenagem por mais 5 anos... em que homem vai se transformar?</p>
+              <p>Um morto-vivo de escritório, com 40 anos, fora de forma, sem disposição, sem missão, riscando os dias até a aposentadoria?</p>
+              <p className="text-foreground">Ou vai romper essas correntes invisíveis e refazer uma vida que faça sentido viver?</p>
             </div>
 
             <div className="mt-6 p-4 border border-blood/30 rounded-md bg-blood/5">
-              <p className="text-foreground"><strong>2026 está quase na metade.</strong></p>
-              <p className="text-muted-foreground mt-1">Mas sua domesticação pode acabar hoje.</p>
+              <p className="text-foreground"><strong>2026 já se aproxima do meio.</strong></p>
+              <p className="text-muted-foreground mt-1">Mas o seu amansamento pode terminar agora.</p>
             </div>
 
             <div className="mt-8 flex justify-center">
-              <HonorButton>Quero sair da prisão!</HonorButton>
+              <HonorButton>Quero romper essa cela!</HonorButton>
             </div>
           </div>
         </div>
