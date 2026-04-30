@@ -269,37 +269,37 @@ function Index() {
         <div className="px-4 py-20 bg-background">
           <div className="mx-auto max-w-3xl text-center">
             <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground">
-              Antes de prosseguir,
+              Antes de seguir adiante,
             </p>
             <h2 className="mt-2 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-              Leia com atenção e <span className="text-blood">decida seu destino</span>
+              Leia com calma e <span className="text-blood">defina seu destino</span>
             </h2>
 
             <div className="mt-12 mx-auto max-w-2xl bg-warning text-warning-foreground rounded-xl p-6 md:p-10 shadow-brutal text-left">
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
                 <p>
-                  É um campo de batalha para homens que pararam de mentir para si mesmos e aceitaram
-                  uma verdade brutal: ninguém vai te salvar exceto você mesmo.
+                  É um terreno de guerra para homens que deixaram de se enganar e abraçaram
+                  uma verdade dura: ninguém te salva, só você mesmo.
                 </p>
                 <p>
-                  Este método não é para quem quer alívio temporário. É para quem busca{" "}
-                  <strong>domínio permanente</strong>.
+                  Esse método não é para quem procura alívio passageiro. É para quem quer{" "}
+                  <strong>controle definitivo</strong>.
                 </p>
                 <p>
-                  Para homens que escolheram carregar o peso da responsabilidade total sobre suas
-                  vidas — e ainda pedem por mais força para carregar.
+                  Para homens que decidiram assumir o peso total da responsabilidade pelas suas
+                  vidas — e ainda imploram por mais vigor para sustentar.
                 </p>
                 <p className="font-semibold italic border-l-4 border-warning-foreground/40 pl-4">
-                  "Senhor, não tire de mim esse fardo... mas multiplique minha força e coragem para
-                  carregá-lo com honra."
+                  "Senhor, não me alivie desse fardo... mas redobre minha coragem e minha força para
+                  sustentá-lo com honra."
                 </p>
-                <p>Se esta oração ressoa em sua alma... você é um de nós.</p>
+                <p>Se essa prece ecoa na sua alma... você é um dos nossos.</p>
                 <p>
-                  Mas se você prefere se anestesiar com desculpas, culpar circunstâncias e viver como
-                  vítima das próprias escolhas...
+                  Agora, se você prefere se acalmar com justificativas, culpar o destino e seguir
+                  como vítima das próprias decisões...
                 </p>
                 <p className="text-center font-display text-xl md:text-2xl uppercase tracking-tight pt-4 text-[oklch(0.45_0.22_25)]">
-                  Feche essa página agora<br />e não volte mais!
+                  Feche esta página já<br />e não retorne nunca mais!
                 </p>
               </div>
             </div>
@@ -309,13 +309,13 @@ function Index() {
             </div>
 
             <div className="mt-16 max-w-2xl mx-auto text-left space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
-              <p className="text-foreground">Ainda está aqui?</p>
+              <p className="text-foreground">Continua aí?</p>
               <p>
-                Então você entendeu que chegou a hora de parar de fingir que vai mudar "um dia" e
-                começar a reconstruir sua vida hoje mesmo.
+                Então você sacou que é o momento de parar de fingir que vai mudar "qualquer dia" e
+                iniciar a reconstrução da sua vida agora mesmo.
               </p>
               <p className="text-foreground font-semibold">
-                Bem-vindo ao último sistema que você vai precisar.
+                Seja bem-vindo ao último sistema que você vai precisar conhecer.
               </p>
             </div>
           </div>
@@ -327,28 +327,28 @@ function Index() {
       <section className="section-light px-4 py-20 border-b border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Mais de <span className="text-blood">10.000 homens</span> já quebraram o ciclo da mediocridade
+            Mais de <span className="text-blood">10.000 homens</span> já romperam o ciclo da mediocridade
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-left">
             <p>
-              Alguns eliminaram vícios que os controlavam há décadas. Outros reconstruíram disciplina
-              que nunca tiveram na vida. Muitos descobriram propósito real depois de anos perdidos
-              no piloto automático.
+              Uns destruíram vícios que os dominavam há décadas. Outros forjaram a disciplina
+              que nunca haviam tido. Muitos enfim acharam propósito verdadeiro após anos
+              perdidos vivendo no automático.
             </p>
             <p className="text-foreground">
-              Mas todos têm uma coisa em comum: pararam de aceitar viver abaixo do próprio potencial.
+              Mas todos compartilham um traço: deixaram de tolerar viver aquém do próprio potencial.
             </p>
             <p>
-              A diferença entre eles e você não é capacidade, inteligência ou sorte.
+              O que separa você deles não é talento, QI ou sorte.
             </p>
             <p className="font-display text-xl md:text-3xl uppercase text-blood text-center py-2">
               É decisão.
             </p>
             <p>
-              Você pode continuar sendo mais um homem inteligente que desperdiça talento... ou pode
-              se tornar o exemplo que outros querem seguir.
+              Você pode seguir sendo mais um cara inteligente que desperdiça o próprio dom... ou
+              pode virar a referência que os outros vão querer copiar.
             </p>
-            <p className="text-foreground font-semibold">A escolha é sua. Mas ela expira hoje.</p>
+            <p className="text-foreground font-semibold">A escolha é toda sua. Mas o prazo vence hoje.</p>
           </div>
         </div>
       </section>
