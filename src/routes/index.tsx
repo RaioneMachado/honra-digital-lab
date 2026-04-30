@@ -423,20 +423,20 @@ function Index() {
       <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Ao final dos <span className="text-blood">2 meses de total foco</span>,<br />você não será mais o mesmo.
+            Após os <span className="text-blood">2 meses de total foco</span>,<br />você já não será o mesmo.
           </h2>
           <p className="mt-4 text-center font-display text-xl md:text-3xl uppercase text-muted-foreground">
-            E o mundo vai perceber.
+            E todos ao redor vão notar.
           </p>
 
           <ul className="mt-12 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             {[
-              "Sua postura vai mudar. Você vai andar diferente, falar diferente e ninguém mais vai conseguir te ignorar.",
-              "Sua mente vai enxergar o que antes era invisível. Oportunidades vão aparecer porque você finalmente terá olhos treinados para reconhecê-las.",
-              "Seu ambiente e seus relacionamentos vão mudar. Você vai cortar o que te puxa para baixo e se cercar apenas do que te fortalece.",
-              "Você vai dominar seu tempo e energia. Procrastinação deixa de ser opção — cada minuto terá direção.",
-              "Você vai organizar sua vida inteira. Com clareza, foco e ação, todas as áreas vão ter propósito.",
-              "Sua confiança vai se tornar inabalável. Você vai dizer não sem culpa, enfrentar o que evitava e tomar decisões que antes pareciam impossíveis.",
+              "Sua presença vai mudar. Você vai caminhar de outro jeito, falar de outro jeito e ninguém mais vai conseguir te ignorar.",
+              "Sua mente vai notar o que antes passava batido. Oportunidades vão surgir porque você finalmente terá o olhar afiado para identificá-las.",
+              "Seu ambiente e suas relações vão se transformar. Você vai eliminar o que te derruba e ficar somente com o que te fortalece.",
+              "Você vai mandar no seu tempo e na sua energia. Procrastinar deixa de ser uma escolha — cada minuto vai ter um rumo.",
+              "Você vai colocar ordem na vida toda. Com clareza, foco e movimento, cada área terá propósito.",
+              "Sua autoconfiança vai se tornar inquebrável. Você vai dizer não sem culpa, encarar o que adiava e tomar decisões que antes pareciam fora de alcance.",
             ].map((it, i) => (
               <li key={i} className="flex gap-4 bg-card p-5 rounded-md border border-border">
                 <Flame className="h-6 w-6 text-blood flex-shrink-0 mt-0.5" />
@@ -451,20 +451,20 @@ function Index() {
       <section className="section-dark px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
-            O que você vai receber:
+            O que está incluso:
           </h2>
           <p className="mt-3 text-center font-display text-lg md:text-xl uppercase tracking-widest text-blood">
             Acesso ao aplicativo
           </p>
-          <p className="mt-1 text-center text-muted-foreground">incluindo:</p>
+          <p className="mt-1 text-center text-muted-foreground">contendo:</p>
 
           <div className="mt-12 grid gap-5 md:grid-cols-2">
             {[
-              { title: "Curso completo", desc: "Cada aula direta, sem enrolação, indo no ponto do que você precisa mudar." },
-              { title: "Sistema dos 2 meses de total foco", desc: "A fórmula prática, passo a passo, que destrói sua versão fraca e forja disciplina diária." },
-              { title: "Materiais complementares", desc: "Suporte escrito para aplicar na prática." },
-              { title: "Diversos bônus", desc: "Aprofundando áreas específicas que aceleram sua evolução." },
-              { title: "Atualizações futuras", desc: "Acesso às grandes atualizações do conteúdo de Valhalla Foco." },
+              { title: "Curso completo", desc: "Cada aula objetiva, sem rodeios, atacando exatamente o que você precisa transformar." },
+              { title: "Sistema dos 2 meses de total foco", desc: "A receita prática, passo a passo, que pulveriza sua versão frágil e cria disciplina diária." },
+              { title: "Materiais complementares", desc: "Apoio escrito para colocar tudo em prática." },
+              { title: "Diversos bônus", desc: "Mergulhos em áreas específicas que turbinam sua evolução." },
+              { title: "Atualizações futuras", desc: "Acesso às próximas grandes atualizações do conteúdo de Valhalla Foco." },
             ].map((item) => (
               <div key={item.title} className="bg-card border border-border rounded-xl p-6 hover:border-blood/50 transition-colors group">
                 <div className="flex items-start gap-4">
@@ -491,19 +491,19 @@ function Index() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Para garantir sua transformação <span className="text-blood">permanente</span>
+            Para blindar sua transformação <span className="text-blood">duradoura</span>
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-left">
             <p>
-              Além de todo o conteúdo de Valhalla Foco, decidi adicionar bônus exclusivos para
-              garantir mais ainda que você se torne um homem de verdade.
+              Além de tudo o que já está em Valhalla Foco, resolvi incluir bônus exclusivos para
+              reforçar ainda mais a sua jornada rumo a se tornar um homem de verdade.
             </p>
             <p className="text-foreground font-semibold">
-              Não são "bônus para encher linguiça".
+              Não são "bônus para fazer volume".
             </p>
             <p>
-              Eles foram criados para acelerar sua transformação, atacar pontos fracos que todo
-              homem tem e garantir que você não só mude — mas <strong className="text-foreground">permaneça mudado</strong>.
+              Eles foram pensados para acelerar a sua mudança, mirar nas falhas que todo
+              homem possui e assegurar que você não apenas mude — mas <strong className="text-foreground">se mantenha mudado</strong>.
             </p>
           </div>
         </div>
