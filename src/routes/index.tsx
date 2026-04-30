@@ -514,7 +514,7 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-50 pointer-events-none" />
         <div className="relative mx-auto max-w-2xl">
           <p className="text-center font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood">
-            O último material de desenvolvimento pessoal que você vai comprar!
+            O último material de desenvolvimento pessoal que vai entrar no seu carrinho!
           </p>
           <h2 className="mt-4 text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Encerre o ciclo de tentativas. <span className="text-blood">Comece o de resultados.</span>
@@ -523,7 +523,7 @@ function Index() {
           <div className="mt-12 bg-card rounded-2xl border-2 border-blood/40 p-8 md:p-10 shadow-blood">
             <ul className="space-y-4">
               {[
-                "Acesso vitalício ao sistema completo",
+                "Acesso para sempre ao sistema completo",
                 "Sistema dos 2 meses de total foco",
                 "Curso completo em vídeo",
                 "4 Bônus exclusivos",
@@ -540,13 +540,13 @@ function Index() {
 
             <div className="text-center">
               <p className="text-muted-foreground">
-                De <span className="line-through">R$ 297</span> por:
+                De <span className="line-through">R$ 297</span> por apenas:
               </p>
               <p className="mt-3 font-display text-5xl md:text-7xl text-blood text-shadow-blood leading-none">
                 6x R$ 5,66
               </p>
               <p className="mt-3 text-muted-foreground">
-                Ou <span className="text-foreground font-semibold">R$ 29,90</span> à vista no PIX
+                Ou <span className="text-foreground font-semibold">R$ 29,90</span> pagando no PIX
               </p>
             </div>
 
@@ -570,9 +570,9 @@ function Index() {
                   Garantia de 30 dias
                 </h3>
                 <p className="mt-2 text-sm md:text-base text-muted-foreground leading-relaxed">
-                  Se em 30 dias você sentir que não é pra você, te devolvemos 100% do valor. Sem
-                  letra miúda. Sem questionamento. Você entra com confiança. E se não sentir que é
-                  pra você — sai sem prejuízo.
+                  Se em 30 dias você concluir que não é pra você, devolvemos 100% do valor. Sem
+                  cláusulas escondidas. Sem perguntas. Você entra tranquilo. E se sentir que não
+                  combina — sai sem perder nada.
                 </p>
               </div>
             </div>
@@ -584,10 +584,10 @@ function Index() {
       <section className="section-light px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
-            Perguntas frequentes
+            Dúvidas mais comuns
           </h2>
           <p className="mt-3 text-center text-muted-foreground">
-            Para eliminar toda e qualquer dúvida que ainda resta na sua cabeça.
+            Para tirar qualquer pergunta que ainda esteja passando pela sua cabeça.
           </p>
 
           {/* Sobre Valhalla Foco */}
@@ -597,21 +597,21 @@ function Index() {
             </h3>
             <div className="mt-4 space-y-4 text-base text-muted-foreground leading-relaxed">
               <p>
-                Valhalla Foco não é uma marca. É um movimento — uma filosofia de vida criada para
-                quem se recusa a viver no piloto automático.
+                Valhalla Foco não é apenas uma marca. É um movimento — uma filosofia de vida criada
+                para quem se nega a viver no automático.
               </p>
               <p>
-                Enquanto o mundo tenta te transformar em mais um, Valhalla Foco existe pra
-                reprogramar tua mente, reforjar tua disciplina e reativar teu propósito.
+                Enquanto o mundo tenta te encaixar como mais um da multidão, Valhalla Foco existe
+                para reprogramar a sua mente, reforjar a sua disciplina e reacender o seu propósito.
               </p>
               <p>
-                Aqui, não vendemos "motivação passageira". Vendemos o sistema que cria homens
-                inquebráveis. Cada conteúdo foi construído com um único objetivo: fazer você
-                renascer — mentalmente, fisicamente e espiritualmente.
+                Aqui, não entregamos "motivação passageira". Entregamos o sistema que forma homens
+                inquebráveis. Cada conteúdo foi montado com um único alvo: fazer você renascer —
+                mentalmente, fisicamente e espiritualmente.
               </p>
               <p className="text-foreground">
-                É o código que separa os que apenas existem dos que dominam a própria vida. Se você
-                chegou até aqui, provavelmente já faz parte disso. Só falta assumir a sua nova
+                É o código que distingue os que apenas existem dos que controlam a própria vida. Se
+                você chegou até aqui, provavelmente já faz parte disso. Só resta assumir a sua nova
                 identidade.
               </p>
             </div>
@@ -619,21 +619,21 @@ function Index() {
 
           <Accordion type="single" collapsible className="mt-10 space-y-3">
             {[
-              { q: "Já tentei tudo, por que isso seria diferente?", a: "Porque não adiciona hábitos — reconstrói identidade. Diferença entre pintar uma parede podre e construir uma casa nova." },
-              { q: "É mais um curso de motivação?", a: "Não. É anti-motivação. Funciona especialmente quando você não tem vontade nenhuma." },
-              { q: "Funciona para qualquer idade?", a: "16 a 55 anos. Depois dos 55, o cérebro tem menos plasticidade para mudanças radicais." },
-              { q: "E se eu não tiver disciplina para seguir?", a: "O sistema CRIA disciplina. É feito para quem não tem." },
-              { q: "Como sei que não é golpe?", a: "Mais de 10.000 alunos e anos de mercado." },
-              { q: "O pagamento é seguro?", a: "100%. Processado por plataforma certificada com SSL." },
-              { q: "E se meu cartão não passar?", a: "Sistema aceita qualquer cartão nacional/internacional. Se falhar, tente outro ou PIX." },
-              { q: "Tem garantia?", a: "30 dias incondicional. Não funcionou? Devolvemos tudo, sem perguntas." },
-              { q: "Como funciona o reembolso?", a: "Solicita na plataforma, dinheiro volta no mesmo dia." },
-              { q: "Quando recebo o acesso?", a: "Imediatamente após aprovação do pagamento." },
-              { q: "Como acesso o conteúdo?", a: "Login e senha enviados por email + SMS. Acesso por qualquer dispositivo." },
-              { q: "Quanto tempo de conteúdo?", a: "4 horas de vídeo + 200 páginas de material escrito + ferramentas práticas." },
-              { q: "Em quanto tempo vejo resultados?", a: "Primeiros sinais: 7 dias. Mudança radical: 30 dias. Transformação completa: 2 meses de total foco." },
-              { q: "Por que tão barato?", a: "Porque queremos alcançar milhões de homens, não apenas ricos." },
-              { q: "Vai aumentar o preço?", a: "Sim. Esta é a última turma com este valor promocional." },
+              { q: "Já tentei tudo, por que dessa vez seria diferente?", a: "Porque aqui não se empilha hábitos — refaz-se identidade. É a diferença entre pintar uma parede apodrecida e levantar uma casa do zero." },
+              { q: "É só mais um curso motivacional?", a: "Não. É anti-motivação. Funciona principalmente quando você não tem vontade alguma." },
+              { q: "Serve para qualquer idade?", a: "Dos 16 aos 55 anos. Após os 55, o cérebro tem menos plasticidade para mudanças tão radicais." },
+              { q: "E se eu não tiver disciplina para seguir?", a: "O sistema CRIA a disciplina. Foi feito justamente para quem ainda não tem." },
+              { q: "Como saber que não é golpe?", a: "Mais de 10.000 alunos e anos de estrada no mercado." },
+              { q: "O pagamento é seguro?", a: "100%. Processado por plataforma certificada e protegida com SSL." },
+              { q: "E se o meu cartão não passar?", a: "A plataforma aceita qualquer cartão nacional ou internacional. Se falhar, tente outro ou opte pelo PIX." },
+              { q: "Tem garantia?", a: "30 dias incondicional. Não funcionou? Devolvemos tudo, sem fazer pergunta." },
+              { q: "Como funciona o reembolso?", a: "Você pede pela plataforma e o dinheiro retorna no mesmo dia." },
+              { q: "Em quanto tempo recebo o acesso?", a: "Na hora, assim que o pagamento for confirmado." },
+              { q: "Como faço para acessar o conteúdo?", a: "Login e senha são enviados por email e SMS. Pode usar em qualquer aparelho." },
+              { q: "Qual a duração do conteúdo?", a: "4 horas em vídeo + 200 páginas de material escrito + ferramentas práticas." },
+              { q: "Quando aparecem os primeiros resultados?", a: "Sinais iniciais: 7 dias. Mudança intensa: 30 dias. Transformação completa: 2 meses de total foco." },
+              { q: "Por que está tão acessível?", a: "Porque o objetivo é alcançar milhões de homens, e não só os mais ricos." },
+              { q: "O preço vai subir?", a: "Sim. Esta é a última turma com esse valor promocional." },
             ].map((item, i) => (
               <AccordionItem key={i} value={`item-${i}`} className="bg-card border border-border rounded-xl px-5 md:px-6">
                 <AccordionTrigger className="text-left font-display uppercase tracking-tight text-base md:text-lg text-foreground hover:text-blood hover:no-underline">
@@ -649,10 +649,10 @@ function Index() {
           <div className="mt-12 text-center bg-card rounded-xl border border-border p-6 md:p-8">
             <Zap className="h-8 w-8 text-blood mx-auto" />
             <p className="mt-4 font-display text-xl md:text-2xl uppercase tracking-tight text-foreground">
-              Ainda possui dúvidas?
+              Continua com perguntas?
             </p>
             <p className="mt-2 text-muted-foreground">
-              Fale com o nosso time de suporte e tire todas as suas dúvidas antes de garantir sua vaga.
+              Converse com o nosso time de suporte e elimine qualquer dúvida antes de garantir sua vaga.
             </p>
             <div className="mt-6 flex justify-center">
               <HonorButton href="#checkout">Tire suas dúvidas</HonorButton>
@@ -666,8 +666,8 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-70 pointer-events-none" />
         <div className="relative mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-6xl uppercase tracking-tight leading-tight">
-            A escolha é sua.<br />
-            <span className="text-blood text-shadow-blood">Mas ela expira hoje.</span>
+            A decisão é sua.<br />
+            <span className="text-blood text-shadow-blood">Mas ela vence hoje.</span>
           </h2>
           <div className="mt-10 flex justify-center">
             <HonorButton size="lg">Quero renascer</HonorButton>
