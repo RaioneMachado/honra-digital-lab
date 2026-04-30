@@ -27,7 +27,7 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
             <span className="font-display text-lg md:text-xl tracking-widest text-foreground">
-              HOMEM DE <span className="text-blood">HONRA</span>
+              VALHALLA <span className="text-blood">FOCO</span>
             </span>
           </div>
           <span className="hidden sm:inline-flex items-center gap-2 text-xs text-muted-foreground font-display uppercase tracking-widest">
@@ -679,7 +679,7 @@ function Index() {
         <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <span className="font-display text-sm md:text-base tracking-widest text-muted-foreground">
-              HOMEM DE <span className="text-blood">HONRA</span>™
+              VALHALLA <span className="text-blood">FOCO</span>™
             </span>
           </div>
           <p className="text-xs md:text-sm text-muted-foreground">
