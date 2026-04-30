@@ -42,18 +42,18 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-60 pointer-events-none" />
         <div className="relative mx-auto max-w-5xl text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-7xl leading-[1.05] uppercase tracking-tight">
-            <span className="text-blood text-shadow-blood">2 meses de total foco</span> para reconstruir
-            <br className="hidden md:block" /> completamente sua disciplina,
-            <br className="hidden md:block" /> foco e propósito
+            <span className="text-blood text-shadow-blood">2 meses de total foco</span> para refazer
+            <br className="hidden md:block" /> por inteiro sua disciplina,
+            <br className="hidden md:block" /> concentração e missão
           </h1>
           <p className="mt-5 font-display text-lg md:text-2xl uppercase tracking-wider text-muted-foreground">
-            Mesmo se você já tentou tudo e falhou
+            Ainda que você já tenha tentado de tudo e fracassado
           </p>
 
           <div className="mt-10 mx-auto max-w-4xl rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
             <img
               src={heroImg}
-              alt="Transformação do homem: do desespero à vitória"
+              alt="Transformação masculina: do fundo do poço à conquista"
               width={1920}
               height={1080}
               className="w-full h-auto block"
@@ -63,15 +63,15 @@ function Index() {
                 <p className="font-display text-3xl md:text-5xl uppercase text-muted-foreground/60">Dia 1</p>
               </div>
               <div className="p-4 md:p-6 text-center">
-                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">2 meses depois</p>
+                <p className="font-display text-3xl md:text-5xl uppercase text-blood text-shadow-blood">Após 2 meses</p>
               </div>
             </div>
           </div>
 
           <p className="mt-8 max-w-3xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed">
-            De homem perdido no piloto automático para líder que inspira respeito —
-            o método exato usado por mais de <span className="text-foreground font-semibold">10.000 homens</span>{" "}
-            para quebrar o ciclo da mediocridade para sempre.
+            De homem desorientado vivendo no automático a líder que conquista respeito —
+            o protocolo exato aplicado por mais de <span className="text-foreground font-semibold">10.000 homens</span>{" "}
+            para romper de vez com o ciclo da vida medíocre.
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4">
@@ -91,19 +91,19 @@ function Index() {
       <section className="section-light relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
-            25% do ano passou... E você prometeu que <span className="text-blood">2026 seria diferente</span>
+            Já se foi 25% do ano... E você jurou que <span className="text-blood">2026 seria outro</span>
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
-            <p>Lembra da motivação de janeiro? Das promessas que fez para si mesmo na virada do ano?</p>
-            <p>Mas olhe honestamente para sua rotina atual... seus relacionamentos... seus hábitos...</p>
-            <p className="text-foreground">É exatamente a mesma vida medíocre de 12 meses atrás.</p>
+            <p>Recorda do ânimo de janeiro? Das juras que fez a si próprio na passagem do ano?</p>
+            <p>Mas encare com sinceridade sua rotina de hoje... suas relações... seus costumes...</p>
+            <p className="text-foreground">É praticamente a mesma vida sem brilho de um ano atrás.</p>
             <p className="text-foreground font-semibold border-l-4 border-blood pl-4">
-              Pior ainda: você já está mentalizando 2027 como "o ano da virada" — a mesma mentira que
-              conta para si mesmo há quantos anos?
+              E o pior: você já está fantasiando 2027 como "o ano definitivo" — a mesma mentira que
+              repete para si mesmo há quantas temporadas?
             </p>
             <p>
-              Enquanto isso, todos ao seu redor estão prosperando. E você continua no mesmo lugar,
-              desperdiçando mais um ano do seu potencial.
+              Enquanto isso, quem está à sua volta avança. E você segue parado no mesmo ponto,
+              jogando fora mais um ano do seu potencial.
             </p>
           </div>
         </div>
@@ -113,28 +113,28 @@ function Index() {
       <section className="section-dark relative px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood mb-6">
-            A pergunta que você evita responder:
+            A questão que você foge de encarar:
           </p>
           <h3 className="font-display text-2xl md:text-3xl leading-tight text-foreground">
-            Se você não conseguiu mudar em 365 dias... o que te faz pensar que vai conseguir no próximo ano?
+            Se em 365 dias você não conseguiu se transformar... por que acreditar que vai dar certo no ano que vem?
           </h3>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             <p className="text-foreground font-semibold">
-              Sem um sistema real. Sem um método comprovado. Apenas com a mesma "força de vontade"
-              que te decepcionou por 4 meses consecutivos.
+              Sem nenhum sistema concreto. Sem nenhum método validado. Só com a mesma "vontade"
+              que te traiu por 4 meses seguidos.
             </p>
-            <p>Daqui a 1 ano, você vai estar:</p>
+            <p>Em 1 ano, você vai estar:</p>
             <ul className="space-y-3 pl-1">
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Olhando no espelho o mesmo homem frustrado de hoje?</li>
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Ganhando o mesmo salário, vivendo a mesma rotina vazia?</li>
-              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente vai ser o homem que sempre soube que poderia ser?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Encarando no espelho o mesmo homem insatisfeito de agora?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Recebendo o mesmo salário, repetindo a mesma rotina sem sentido?</li>
+              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente se tornará o homem que sempre soube ser capaz de ser?</li>
             </ul>
             <p className="text-foreground bg-blood/10 p-4 rounded-md border border-blood/30">
-              Porque uma coisa é certa: <strong>2026 está acabando com ou sem sua transformação.</strong>
+              Porque algo é certo: <strong>2026 vai terminar — com ou sem a sua virada.</strong>
             </p>
             <p className="text-foreground">
-              A diferença é se você vai entrar em 2027 como a mesma pessoa... ou como alguém
-              completamente reconstruído.
+              A questão é se você vai começar 2027 sendo a mesma pessoa... ou alguém
+              totalmente refeito.
             </p>
           </div>
         </div>
@@ -144,48 +144,49 @@ function Index() {
       <section className="section-light relative px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Você acha que está vivendo... mas está apenas <span className="text-blood">sobrevivendo</span>
+            Você imagina que está vivendo... mas está só <span className="text-blood">sobrevivendo</span>
           </h2>
           <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             <p>
-              Acorda. Café. Trânsito. Trabalho. Almoço vendo YouTube. Mais trabalho. Volta pra casa
-              exausto. Sofá. Celular. Netflix. Dorme tarde. Repete.
+              Desperta. Café. Engarrafamento. Expediente. Almoço vendo YouTube. Mais expediente.
+              Retorna em casa esgotado. Sofá. Celular. Netflix. Cama tarde. E recomeça.
             </p>
             <p>
-              Fim de semana? Mais celular. Mais Netflix. Talvez um bar. Domingo de ansiedade pensando
-              na segunda-feira.
+              Sábado e domingo? Mais celular. Mais Netflix. Quem sabe um bar. Domingo de aflição
+              pensando na segunda.
             </p>
             <p className="text-foreground font-semibold">
-              E assim você desperdiça semanas. Meses. Anos inteiros.
+              E é dessa forma que você joga fora semanas. Meses. Anos por completo.
             </p>
           </div>
 
           <div className="mt-12 text-center">
             <p className="inline-block font-display text-2xl md:text-4xl uppercase tracking-tight bg-blood/15 px-6 py-3 border-l-4 border-r-4 border-blood">
-              Parabéns. Você foi <span className="text-blood">domesticado</span>.
+              Felicitações. Você foi <span className="text-blood">amansado</span>.
             </p>
           </div>
 
           <div className="mt-12 rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
-            <img src={domesticatedImg} alt="Homem domesticado pelo sistema" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
+            <img src={domesticatedImg} alt="Homem amansado pelo sistema" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
           </div>
 
           <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            <p>Não precisaram de algemas ou correntes para te prender.</p>
+            <p>Não foi preciso algemas nem correntes para te aprisionar.</p>
             <p>
-              Bastou manter sua mente ocupada o suficiente para que você nunca percebesse que vive
-              como um hamster numa roda — correndo sem parar, mas nunca saindo do lugar.
+              Foi suficiente manter sua cabeça ocupada o bastante para que você jamais notasse que
+              existe igual a um hamster girando a rodinha — em movimento sem cessar, mas sempre
+              no mesmo ponto.
             </p>
           </div>
 
           <div className="mt-12 mx-auto max-w-2xl bg-card rounded-xl p-6 md:p-10 border border-border shadow-brutal">
-            <p className="text-foreground/90 mb-4">Enquanto você vive no piloto automático...</p>
+            <p className="text-foreground/90 mb-4">Enquanto a sua vida segue no automático...</p>
             <ul className="space-y-3 text-muted-foreground">
               {[
-                "Seus melhores anos escorrem pelos dedos",
-                "Seu potencial apodrece sem uso",
-                "Sua energia vital é sugada por distrações",
-                "Sua vida se torna estatística de mediocridade",
+                "Seus anos mais valiosos vão escapando entre os dedos",
+                "Seu potencial estraga sem nunca ser usado",
+                "Sua energia vital é drenada por distrações",
+                "Sua existência vira mais um número da mediocridade",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Skull className="h-5 w-5 text-blood mt-0.5 flex-shrink-0" />
@@ -195,21 +196,21 @@ function Index() {
             </ul>
 
             <p className="mt-8 font-display text-sm uppercase tracking-[0.2em] text-blood">
-              A pergunta que ninguém quer fazer:
+              A pergunta que ninguém tem coragem de fazer:
             </p>
             <div className="mt-3 space-y-3 text-muted-foreground">
-              <p>Se você continuar nesse sistema por mais 5 anos... que homem você vai se tornar?</p>
-              <p>Um zumbi corporativo de 40 anos, gordo, sem energia, sem propósito, contando os dias para a aposentadoria?</p>
-              <p className="text-foreground">Ou você vai quebrar as correntes invisíveis e reconstruir uma vida que vale a pena viver?</p>
+              <p>Se você permanecer nessa engrenagem por mais 5 anos... em que homem vai se transformar?</p>
+              <p>Um morto-vivo de escritório, com 40 anos, fora de forma, sem disposição, sem missão, riscando os dias até a aposentadoria?</p>
+              <p className="text-foreground">Ou vai romper essas correntes invisíveis e refazer uma vida que faça sentido viver?</p>
             </div>
 
             <div className="mt-6 p-4 border border-blood/30 rounded-md bg-blood/5">
-              <p className="text-foreground"><strong>2026 está quase na metade.</strong></p>
-              <p className="text-muted-foreground mt-1">Mas sua domesticação pode acabar hoje.</p>
+              <p className="text-foreground"><strong>2026 já se aproxima do meio.</strong></p>
+              <p className="text-muted-foreground mt-1">Mas o seu amansamento pode terminar agora.</p>
             </div>
 
             <div className="mt-8 flex justify-center">
-              <HonorButton>Quero sair da prisão!</HonorButton>
+              <HonorButton>Quero romper essa cela!</HonorButton>
             </div>
           </div>
         </div>
@@ -219,27 +220,27 @@ function Index() {
       <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            A saída existe. Mas ela cobra um <span className="text-blood">preço brutal.</span>
+            Existe uma saída. Mas ela tem um <span className="text-blood">custo cruel.</span>
           </h2>
 
           <div className="mt-10 text-center text-lg md:text-xl text-muted-foreground space-y-2">
-            <p>Não é questão de dinheiro.</p>
-            <p>Nem de ter sorte.</p>
-            <p>Muito menos de "ser diferente".</p>
+            <p>Não é uma questão de grana.</p>
+            <p>Tampouco de sorte.</p>
+            <p>Muito menos de "nascer especial".</p>
           </div>
 
           <div className="mt-10 text-center">
             <p className="inline-block font-display text-xl md:text-3xl uppercase tracking-tight bg-blood/15 px-6 py-3 text-foreground">
-              É sobre ter coragem para <span className="text-blood">renunciar.</span>
+              É sobre ter coragem de <span className="text-blood">abrir mão.</span>
             </p>
           </div>
 
           <ul className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             {[
-              { strong: "Renunciar aos vícios", rest: "que te aliviam por 30 minutos... e te destroem por 30 anos." },
-              { strong: "Renunciar às pessoas que sempre te arrastam para o passado", rest: "e te condenam a uma vida medíocre que você não quer mais viver." },
-              { strong: "Renunciar aos velhos hábitos, comportamentos e ambientes", rest: "que te puxam de volta para o buraco sempre que você tenta subir." },
-              { strong: "Renunciar à versão confortável de si mesmo", rest: "— aquela que tem desculpas prontas, que \"vai começar segunda-feira\", que sempre encontra um motivo para não agir." },
+              { strong: "Abrir mão dos vícios", rest: "que te dão alívio por meia hora... e te aniquilam por três décadas." },
+              { strong: "Abrir mão das pessoas que sempre te empurram de volta ao passado", rest: "e te prendem a uma vida sem brilho que você já não suporta mais." },
+              { strong: "Abrir mão dos hábitos, comportamentos e ambientes antigos", rest: "que te jogam de volta no fundo do poço toda vez que você tenta escalar." },
+              { strong: "Abrir mão da versão acomodada de você mesmo", rest: "— aquela com desculpas no bolso, que \"começa segunda-feira\", que sempre arruma um pretexto para não agir." },
             ].map((it, i) => (
               <li key={i} className="flex gap-3">
                 <span className="text-blood text-xl leading-none">›</span>
@@ -249,15 +250,15 @@ function Index() {
           </ul>
 
           <div className="mt-14 rounded-xl overflow-hidden shadow-brutal ring-1 ring-border">
-            <img src={demonsImg} alt="Homem cercado pelos próprios demônios" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
+            <img src={demonsImg} alt="Homem rodeado pelos próprios demônios" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
           </div>
 
           <div className="mt-12 max-w-2xl mx-auto text-center">
             <p className="text-base md:text-lg text-muted-foreground mb-6">
-              Você está realmente disposto a matar a versão atual de si mesmo para que uma versão
-              superior possa nascer?
+              Você está mesmo pronto para enterrar a sua versão de hoje para que uma versão
+              maior possa surgir?
             </p>
-            <HonorButton size="lg">Sim! Estou preparado!</HonorButton>
+            <HonorButton size="lg">Sim! Estou pronto!</HonorButton>
           </div>
         </div>
       </section>
@@ -268,37 +269,37 @@ function Index() {
         <div className="px-4 py-20 bg-background">
           <div className="mx-auto max-w-3xl text-center">
             <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground">
-              Antes de prosseguir,
+              Antes de seguir adiante,
             </p>
             <h2 className="mt-2 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-              Leia com atenção e <span className="text-blood">decida seu destino</span>
+              Leia com calma e <span className="text-blood">defina seu destino</span>
             </h2>
 
             <div className="mt-12 mx-auto max-w-2xl bg-warning text-warning-foreground rounded-xl p-6 md:p-10 shadow-brutal text-left">
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
                 <p>
-                  É um campo de batalha para homens que pararam de mentir para si mesmos e aceitaram
-                  uma verdade brutal: ninguém vai te salvar exceto você mesmo.
+                  É um terreno de guerra para homens que deixaram de se enganar e abraçaram
+                  uma verdade dura: ninguém te salva, só você mesmo.
                 </p>
                 <p>
-                  Este método não é para quem quer alívio temporário. É para quem busca{" "}
-                  <strong>domínio permanente</strong>.
+                  Esse método não é para quem procura alívio passageiro. É para quem quer{" "}
+                  <strong>controle definitivo</strong>.
                 </p>
                 <p>
-                  Para homens que escolheram carregar o peso da responsabilidade total sobre suas
-                  vidas — e ainda pedem por mais força para carregar.
+                  Para homens que decidiram assumir o peso total da responsabilidade pelas suas
+                  vidas — e ainda imploram por mais vigor para sustentar.
                 </p>
                 <p className="font-semibold italic border-l-4 border-warning-foreground/40 pl-4">
-                  "Senhor, não tire de mim esse fardo... mas multiplique minha força e coragem para
-                  carregá-lo com honra."
+                  "Senhor, não me alivie desse fardo... mas redobre minha coragem e minha força para
+                  sustentá-lo com honra."
                 </p>
-                <p>Se esta oração ressoa em sua alma... você é um de nós.</p>
+                <p>Se essa prece ecoa na sua alma... você é um dos nossos.</p>
                 <p>
-                  Mas se você prefere se anestesiar com desculpas, culpar circunstâncias e viver como
-                  vítima das próprias escolhas...
+                  Agora, se você prefere se acalmar com justificativas, culpar o destino e seguir
+                  como vítima das próprias decisões...
                 </p>
                 <p className="text-center font-display text-xl md:text-2xl uppercase tracking-tight pt-4 text-[oklch(0.45_0.22_25)]">
-                  Feche essa página agora<br />e não volte mais!
+                  Feche esta página já<br />e não retorne nunca mais!
                 </p>
               </div>
             </div>
@@ -308,13 +309,13 @@ function Index() {
             </div>
 
             <div className="mt-16 max-w-2xl mx-auto text-left space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
-              <p className="text-foreground">Ainda está aqui?</p>
+              <p className="text-foreground">Continua aí?</p>
               <p>
-                Então você entendeu que chegou a hora de parar de fingir que vai mudar "um dia" e
-                começar a reconstruir sua vida hoje mesmo.
+                Então você sacou que é o momento de parar de fingir que vai mudar "qualquer dia" e
+                iniciar a reconstrução da sua vida agora mesmo.
               </p>
               <p className="text-foreground font-semibold">
-                Bem-vindo ao último sistema que você vai precisar.
+                Seja bem-vindo ao último sistema que você vai precisar conhecer.
               </p>
             </div>
           </div>
@@ -326,28 +327,28 @@ function Index() {
       <section className="section-light px-4 py-20 border-b border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Mais de <span className="text-blood">10.000 homens</span> já quebraram o ciclo da mediocridade
+            Mais de <span className="text-blood">10.000 homens</span> já romperam o ciclo da mediocridade
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-left">
             <p>
-              Alguns eliminaram vícios que os controlavam há décadas. Outros reconstruíram disciplina
-              que nunca tiveram na vida. Muitos descobriram propósito real depois de anos perdidos
-              no piloto automático.
+              Uns destruíram vícios que os dominavam há décadas. Outros forjaram a disciplina
+              que nunca haviam tido. Muitos enfim acharam propósito verdadeiro após anos
+              perdidos vivendo no automático.
             </p>
             <p className="text-foreground">
-              Mas todos têm uma coisa em comum: pararam de aceitar viver abaixo do próprio potencial.
+              Mas todos compartilham um traço: deixaram de tolerar viver aquém do próprio potencial.
             </p>
             <p>
-              A diferença entre eles e você não é capacidade, inteligência ou sorte.
+              O que separa você deles não é talento, QI ou sorte.
             </p>
             <p className="font-display text-xl md:text-3xl uppercase text-blood text-center py-2">
               É decisão.
             </p>
             <p>
-              Você pode continuar sendo mais um homem inteligente que desperdiça talento... ou pode
-              se tornar o exemplo que outros querem seguir.
+              Você pode seguir sendo mais um cara inteligente que desperdiça o próprio dom... ou
+              pode virar a referência que os outros vão querer copiar.
             </p>
-            <p className="text-foreground font-semibold">A escolha é sua. Mas ela expira hoje.</p>
+            <p className="text-foreground font-semibold">A escolha é toda sua. Mas o prazo vence hoje.</p>
           </div>
         </div>
       </section>
@@ -356,7 +357,7 @@ function Index() {
       <section className="section-dark px-4 py-20">
         <SectionDivider />
         <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight text-blood text-shadow-blood">
-          O Renascimento em 3 etapas
+          O Renascimento em 3 fases
         </h2>
 
         <div className="mt-16 mx-auto max-w-5xl space-y-20">
@@ -367,8 +368,8 @@ function Index() {
               img: phaseDemolition,
               icon: <Skull className="h-7 w-7" />,
               text: [
-                "Nesta primeira fase devastadora, você vai identificar e destruir sistematicamente tudo que te mantém preso ao piloto automático: vícios digitais que drenam sua energia vital, distrações que fragmentam seu foco, crenças limitantes que sabotam seu potencial e a necessidade doentia de aprovação externa que te faz viver para os outros.",
-                "É impossível construir uma casa sólida sobre fundações podres. Antes de se tornar quem você deve ser, você precisa eliminar completamente quem você não quer mais ser — e essa fase é o choque de realidade brutal que separa homens sérios de eternos sonhadores, liberando sua mente para criação real pela primeira vez em anos.",
+                "Nessa primeira etapa avassaladora, você vai mapear e arrasar de forma sistemática tudo que te mantém amarrado ao automático: vícios digitais que sugam sua energia vital, distrações que partem seu foco em pedaços, crenças limitantes que minam seu potencial e a obsessão doentia por aprovação alheia que te obriga a viver pelos outros.",
+                "É impossível erguer uma construção sólida sobre alicerces apodrecidos. Antes de virar quem você deve ser, é preciso aniquilar por completo quem você não quer mais ser — e esta etapa é o tapa de realidade que separa homens de verdade dos sonhadores eternos, abrindo sua mente para criar de fato pela primeira vez em anos.",
               ],
             },
             {
@@ -377,8 +378,8 @@ function Index() {
               img: phaseReconstruction,
               icon: <Shield className="h-7 w-7" />,
               text: [
-                "Com o terreno mental completamente limpo, você constrói um novo \"você\" desde os alicerces: cria um código de conduta pessoal inviolável que funciona como lei interna, desenvolve rituais sagrados que transformam dor em disciplina automática e reprograma completamente sua autoimagem interna através de ações concretas, não afirmações vazias.",
-                "Enquanto métodos tradicionais tentam adicionar hábitos bons a uma personalidade defeituosa, aqui você reconstrói sua identidade fundamental — disciplina deixa de ser \"algo que você faz\" e vira \"quem você é\", criando um sistema interno que te obriga a cumprir sua palavra e recupera seu respeito próprio de forma inquestionável.",
+                "Com o terreno mental totalmente limpo, você levanta um novo \"você\" desde a base: estabelece um código pessoal inquebrantável que opera como lei interior, cria rituais sagrados que convertem dor em disciplina automática e reprograma por completo sua autoimagem por meio de ações reais, e não de afirmações vazias.",
+                "Enquanto os métodos tradicionais tentam encaixar bons hábitos em uma personalidade quebrada, aqui você refaz sua identidade pelas raízes — disciplina deixa de ser \"algo que você executa\" para virar \"aquilo que você é\", formando um sistema interno que te força a honrar a palavra dada e devolve seu respeito próprio sem qualquer dúvida.",
               ],
             },
             {
@@ -387,8 +388,8 @@ function Index() {
               img: phaseExpansion,
               icon: <CrownIcon className="h-7 w-7" />,
               text: [
-                "Com fundações de aço estabelecidas, você expande seu domínio sobre todas as áreas da vida: blinda sua energia contra vampiros emocionais e situações que antes te derrubavam, transforma sua mente em ferramenta de criação imparável que materializa objetivos com precisão cirúrgica e assume controle absoluto sobre sua realidade externa através do domínio interno completo.",
-                "Aqui você transcende definitivamente a mentalidade de sobrevivência e entra em modo de conquista permanente — não reage mais aos problemas, mas os antecipa e os usa como combustível para crescimento exponencial, tornando-se um homem que naturalmente inspira respeito, lidera pelo exemplo e constrói um legado duradouro enquanto a maioria ainda luta contra si mesma.",
+                "Com bases de aço fincadas, você amplia seu domínio sobre todas as esferas da vida: blinda sua energia contra vampiros emocionais e cenários que antes te derrubavam, converte sua mente em uma ferramenta de criação implacável que concretiza metas com precisão cirúrgica e assume controle total sobre a sua realidade externa por meio do domínio interno completo.",
+                "Aqui você ultrapassa de vez a mentalidade de sobrevivência e entra em modo de conquista contínua — não responde mais aos problemas, mas os antevê e os transforma em combustível para um crescimento exponencial, virando um homem que desperta respeito naturalmente, conduz pelo exemplo e ergue um legado duradouro, enquanto a maior parte ainda briga contra si mesma.",
               ],
             },
           ].map((phase) => (
@@ -422,20 +423,20 @@ function Index() {
       <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Ao final dos <span className="text-blood">2 meses de total foco</span>,<br />você não será mais o mesmo.
+            Após os <span className="text-blood">2 meses de total foco</span>,<br />você já não será o mesmo.
           </h2>
           <p className="mt-4 text-center font-display text-xl md:text-3xl uppercase text-muted-foreground">
-            E o mundo vai perceber.
+            E todos ao redor vão notar.
           </p>
 
           <ul className="mt-12 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             {[
-              "Sua postura vai mudar. Você vai andar diferente, falar diferente e ninguém mais vai conseguir te ignorar.",
-              "Sua mente vai enxergar o que antes era invisível. Oportunidades vão aparecer porque você finalmente terá olhos treinados para reconhecê-las.",
-              "Seu ambiente e seus relacionamentos vão mudar. Você vai cortar o que te puxa para baixo e se cercar apenas do que te fortalece.",
-              "Você vai dominar seu tempo e energia. Procrastinação deixa de ser opção — cada minuto terá direção.",
-              "Você vai organizar sua vida inteira. Com clareza, foco e ação, todas as áreas vão ter propósito.",
-              "Sua confiança vai se tornar inabalável. Você vai dizer não sem culpa, enfrentar o que evitava e tomar decisões que antes pareciam impossíveis.",
+              "Sua presença vai mudar. Você vai caminhar de outro jeito, falar de outro jeito e ninguém mais vai conseguir te ignorar.",
+              "Sua mente vai notar o que antes passava batido. Oportunidades vão surgir porque você finalmente terá o olhar afiado para identificá-las.",
+              "Seu ambiente e suas relações vão se transformar. Você vai eliminar o que te derruba e ficar somente com o que te fortalece.",
+              "Você vai mandar no seu tempo e na sua energia. Procrastinar deixa de ser uma escolha — cada minuto vai ter um rumo.",
+              "Você vai colocar ordem na vida toda. Com clareza, foco e movimento, cada área terá propósito.",
+              "Sua autoconfiança vai se tornar inquebrável. Você vai dizer não sem culpa, encarar o que adiava e tomar decisões que antes pareciam fora de alcance.",
             ].map((it, i) => (
               <li key={i} className="flex gap-4 bg-card p-5 rounded-md border border-border">
                 <Flame className="h-6 w-6 text-blood flex-shrink-0 mt-0.5" />
@@ -450,20 +451,20 @@ function Index() {
       <section className="section-dark px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
-            O que você vai receber:
+            O que está incluso:
           </h2>
           <p className="mt-3 text-center font-display text-lg md:text-xl uppercase tracking-widest text-blood">
             Acesso ao aplicativo
           </p>
-          <p className="mt-1 text-center text-muted-foreground">incluindo:</p>
+          <p className="mt-1 text-center text-muted-foreground">contendo:</p>
 
           <div className="mt-12 grid gap-5 md:grid-cols-2">
             {[
-              { title: "Curso completo", desc: "Cada aula direta, sem enrolação, indo no ponto do que você precisa mudar." },
-              { title: "Sistema dos 2 meses de total foco", desc: "A fórmula prática, passo a passo, que destrói sua versão fraca e forja disciplina diária." },
-              { title: "Materiais complementares", desc: "Suporte escrito para aplicar na prática." },
-              { title: "Diversos bônus", desc: "Aprofundando áreas específicas que aceleram sua evolução." },
-              { title: "Atualizações futuras", desc: "Acesso às grandes atualizações do conteúdo de Valhalla Foco." },
+              { title: "Curso completo", desc: "Cada aula objetiva, sem rodeios, atacando exatamente o que você precisa transformar." },
+              { title: "Sistema dos 2 meses de total foco", desc: "A receita prática, passo a passo, que pulveriza sua versão frágil e cria disciplina diária." },
+              { title: "Materiais complementares", desc: "Apoio escrito para colocar tudo em prática." },
+              { title: "Diversos bônus", desc: "Mergulhos em áreas específicas que turbinam sua evolução." },
+              { title: "Atualizações futuras", desc: "Acesso às próximas grandes atualizações do conteúdo de Valhalla Foco." },
             ].map((item) => (
               <div key={item.title} className="bg-card border border-border rounded-xl p-6 hover:border-blood/50 transition-colors group">
                 <div className="flex items-start gap-4">
@@ -490,19 +491,19 @@ function Index() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Para garantir sua transformação <span className="text-blood">permanente</span>
+            Para blindar sua transformação <span className="text-blood">duradoura</span>
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed text-left">
             <p>
-              Além de todo o conteúdo de Valhalla Foco, decidi adicionar bônus exclusivos para
-              garantir mais ainda que você se torne um homem de verdade.
+              Além de tudo o que já está em Valhalla Foco, resolvi incluir bônus exclusivos para
+              reforçar ainda mais a sua jornada rumo a se tornar um homem de verdade.
             </p>
             <p className="text-foreground font-semibold">
-              Não são "bônus para encher linguiça".
+              Não são "bônus para fazer volume".
             </p>
             <p>
-              Eles foram criados para acelerar sua transformação, atacar pontos fracos que todo
-              homem tem e garantir que você não só mude — mas <strong className="text-foreground">permaneça mudado</strong>.
+              Eles foram pensados para acelerar a sua mudança, mirar nas falhas que todo
+              homem possui e assegurar que você não apenas mude — mas <strong className="text-foreground">se mantenha mudado</strong>.
             </p>
           </div>
         </div>
@@ -513,7 +514,7 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-50 pointer-events-none" />
         <div className="relative mx-auto max-w-2xl">
           <p className="text-center font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood">
-            O último material de desenvolvimento pessoal que você vai comprar!
+            O último material de desenvolvimento pessoal que vai entrar no seu carrinho!
           </p>
           <h2 className="mt-4 text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Encerre o ciclo de tentativas. <span className="text-blood">Comece o de resultados.</span>
@@ -522,7 +523,7 @@ function Index() {
           <div className="mt-12 bg-card rounded-2xl border-2 border-blood/40 p-8 md:p-10 shadow-blood">
             <ul className="space-y-4">
               {[
-                "Acesso vitalício ao sistema completo",
+                "Acesso para sempre ao sistema completo",
                 "Sistema dos 2 meses de total foco",
                 "Curso completo em vídeo",
                 "4 Bônus exclusivos",
@@ -539,13 +540,13 @@ function Index() {
 
             <div className="text-center">
               <p className="text-muted-foreground">
-                De <span className="line-through">R$ 297</span> por:
+                De <span className="line-through">R$ 297</span> por apenas:
               </p>
               <p className="mt-3 font-display text-5xl md:text-7xl text-blood text-shadow-blood leading-none">
                 6x R$ 5,66
               </p>
               <p className="mt-3 text-muted-foreground">
-                Ou <span className="text-foreground font-semibold">R$ 29,90</span> à vista no PIX
+                Ou <span className="text-foreground font-semibold">R$ 29,90</span> pagando no PIX
               </p>
             </div>
 
@@ -569,9 +570,9 @@ function Index() {
                   Garantia de 30 dias
                 </h3>
                 <p className="mt-2 text-sm md:text-base text-muted-foreground leading-relaxed">
-                  Se em 30 dias você sentir que não é pra você, te devolvemos 100% do valor. Sem
-                  letra miúda. Sem questionamento. Você entra com confiança. E se não sentir que é
-                  pra você — sai sem prejuízo.
+                  Se em 30 dias você concluir que não é pra você, devolvemos 100% do valor. Sem
+                  cláusulas escondidas. Sem perguntas. Você entra tranquilo. E se sentir que não
+                  combina — sai sem perder nada.
                 </p>
               </div>
             </div>
@@ -583,10 +584,10 @@ function Index() {
       <section className="section-light px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
-            Perguntas frequentes
+            Dúvidas mais comuns
           </h2>
           <p className="mt-3 text-center text-muted-foreground">
-            Para eliminar toda e qualquer dúvida que ainda resta na sua cabeça.
+            Para tirar qualquer pergunta que ainda esteja passando pela sua cabeça.
           </p>
 
           {/* Sobre Valhalla Foco */}
@@ -596,21 +597,21 @@ function Index() {
             </h3>
             <div className="mt-4 space-y-4 text-base text-muted-foreground leading-relaxed">
               <p>
-                Valhalla Foco não é uma marca. É um movimento — uma filosofia de vida criada para
-                quem se recusa a viver no piloto automático.
+                Valhalla Foco não é apenas uma marca. É um movimento — uma filosofia de vida criada
+                para quem se nega a viver no automático.
               </p>
               <p>
-                Enquanto o mundo tenta te transformar em mais um, Valhalla Foco existe pra
-                reprogramar tua mente, reforjar tua disciplina e reativar teu propósito.
+                Enquanto o mundo tenta te encaixar como mais um da multidão, Valhalla Foco existe
+                para reprogramar a sua mente, reforjar a sua disciplina e reacender o seu propósito.
               </p>
               <p>
-                Aqui, não vendemos "motivação passageira". Vendemos o sistema que cria homens
-                inquebráveis. Cada conteúdo foi construído com um único objetivo: fazer você
-                renascer — mentalmente, fisicamente e espiritualmente.
+                Aqui, não entregamos "motivação passageira". Entregamos o sistema que forma homens
+                inquebráveis. Cada conteúdo foi montado com um único alvo: fazer você renascer —
+                mentalmente, fisicamente e espiritualmente.
               </p>
               <p className="text-foreground">
-                É o código que separa os que apenas existem dos que dominam a própria vida. Se você
-                chegou até aqui, provavelmente já faz parte disso. Só falta assumir a sua nova
+                É o código que distingue os que apenas existem dos que controlam a própria vida. Se
+                você chegou até aqui, provavelmente já faz parte disso. Só resta assumir a sua nova
                 identidade.
               </p>
             </div>
@@ -618,21 +619,21 @@ function Index() {
 
           <Accordion type="single" collapsible className="mt-10 space-y-3">
             {[
-              { q: "Já tentei tudo, por que isso seria diferente?", a: "Porque não adiciona hábitos — reconstrói identidade. Diferença entre pintar uma parede podre e construir uma casa nova." },
-              { q: "É mais um curso de motivação?", a: "Não. É anti-motivação. Funciona especialmente quando você não tem vontade nenhuma." },
-              { q: "Funciona para qualquer idade?", a: "16 a 55 anos. Depois dos 55, o cérebro tem menos plasticidade para mudanças radicais." },
-              { q: "E se eu não tiver disciplina para seguir?", a: "O sistema CRIA disciplina. É feito para quem não tem." },
-              { q: "Como sei que não é golpe?", a: "Mais de 10.000 alunos e anos de mercado." },
-              { q: "O pagamento é seguro?", a: "100%. Processado por plataforma certificada com SSL." },
-              { q: "E se meu cartão não passar?", a: "Sistema aceita qualquer cartão nacional/internacional. Se falhar, tente outro ou PIX." },
-              { q: "Tem garantia?", a: "30 dias incondicional. Não funcionou? Devolvemos tudo, sem perguntas." },
-              { q: "Como funciona o reembolso?", a: "Solicita na plataforma, dinheiro volta no mesmo dia." },
-              { q: "Quando recebo o acesso?", a: "Imediatamente após aprovação do pagamento." },
-              { q: "Como acesso o conteúdo?", a: "Login e senha enviados por email + SMS. Acesso por qualquer dispositivo." },
-              { q: "Quanto tempo de conteúdo?", a: "4 horas de vídeo + 200 páginas de material escrito + ferramentas práticas." },
-              { q: "Em quanto tempo vejo resultados?", a: "Primeiros sinais: 7 dias. Mudança radical: 30 dias. Transformação completa: 2 meses de total foco." },
-              { q: "Por que tão barato?", a: "Porque queremos alcançar milhões de homens, não apenas ricos." },
-              { q: "Vai aumentar o preço?", a: "Sim. Esta é a última turma com este valor promocional." },
+              { q: "Já tentei tudo, por que dessa vez seria diferente?", a: "Porque aqui não se empilha hábitos — refaz-se identidade. É a diferença entre pintar uma parede apodrecida e levantar uma casa do zero." },
+              { q: "É só mais um curso motivacional?", a: "Não. É anti-motivação. Funciona principalmente quando você não tem vontade alguma." },
+              { q: "Serve para qualquer idade?", a: "Dos 16 aos 55 anos. Após os 55, o cérebro tem menos plasticidade para mudanças tão radicais." },
+              { q: "E se eu não tiver disciplina para seguir?", a: "O sistema CRIA a disciplina. Foi feito justamente para quem ainda não tem." },
+              { q: "Como saber que não é golpe?", a: "Mais de 10.000 alunos e anos de estrada no mercado." },
+              { q: "O pagamento é seguro?", a: "100%. Processado por plataforma certificada e protegida com SSL." },
+              { q: "E se o meu cartão não passar?", a: "A plataforma aceita qualquer cartão nacional ou internacional. Se falhar, tente outro ou opte pelo PIX." },
+              { q: "Tem garantia?", a: "30 dias incondicional. Não funcionou? Devolvemos tudo, sem fazer pergunta." },
+              { q: "Como funciona o reembolso?", a: "Você pede pela plataforma e o dinheiro retorna no mesmo dia." },
+              { q: "Em quanto tempo recebo o acesso?", a: "Na hora, assim que o pagamento for confirmado." },
+              { q: "Como faço para acessar o conteúdo?", a: "Login e senha são enviados por email e SMS. Pode usar em qualquer aparelho." },
+              { q: "Qual a duração do conteúdo?", a: "4 horas em vídeo + 200 páginas de material escrito + ferramentas práticas." },
+              { q: "Quando aparecem os primeiros resultados?", a: "Sinais iniciais: 7 dias. Mudança intensa: 30 dias. Transformação completa: 2 meses de total foco." },
+              { q: "Por que está tão acessível?", a: "Porque o objetivo é alcançar milhões de homens, e não só os mais ricos." },
+              { q: "O preço vai subir?", a: "Sim. Esta é a última turma com esse valor promocional." },
             ].map((item, i) => (
               <AccordionItem key={i} value={`item-${i}`} className="bg-card border border-border rounded-xl px-5 md:px-6">
                 <AccordionTrigger className="text-left font-display uppercase tracking-tight text-base md:text-lg text-foreground hover:text-blood hover:no-underline">
@@ -648,10 +649,10 @@ function Index() {
           <div className="mt-12 text-center bg-card rounded-xl border border-border p-6 md:p-8">
             <Zap className="h-8 w-8 text-blood mx-auto" />
             <p className="mt-4 font-display text-xl md:text-2xl uppercase tracking-tight text-foreground">
-              Ainda possui dúvidas?
+              Continua com perguntas?
             </p>
             <p className="mt-2 text-muted-foreground">
-              Fale com o nosso time de suporte e tire todas as suas dúvidas antes de garantir sua vaga.
+              Converse com o nosso time de suporte e elimine qualquer dúvida antes de garantir sua vaga.
             </p>
             <div className="mt-6 flex justify-center">
               <HonorButton href="#checkout">Tire suas dúvidas</HonorButton>
@@ -665,8 +666,8 @@ function Index() {
         <div className="absolute inset-0 bg-radial-blood opacity-70 pointer-events-none" />
         <div className="relative mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-6xl uppercase tracking-tight leading-tight">
-            A escolha é sua.<br />
-            <span className="text-blood text-shadow-blood">Mas ela expira hoje.</span>
+            A decisão é sua.<br />
+            <span className="text-blood text-shadow-blood">Mas ela vence hoje.</span>
           </h2>
           <div className="mt-10 flex justify-center">
             <HonorButton size="lg">Quero renascer</HonorButton>
