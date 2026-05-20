@@ -90,6 +90,29 @@ function Index() {
         </div>
       </section>
 
+      {/* STATS BAR */}
+      <section className="section-dark border-y border-blood/30 px-4 py-12 md:py-16 relative">
+        <div className="absolute inset-0 bg-radial-blood opacity-30 pointer-events-none" />
+        <div className="relative mx-auto max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          {[
+            { num: "+10.000", label: "Homens despertados", icon: <Users className="h-5 w-5" /> },
+            { num: "63", label: "Dias de protocolo", icon: <Flame className="h-5 w-5" /> },
+            { num: "94%", label: "Relatam transformação real", icon: <TrendingUp className="h-5 w-5" /> },
+            { num: "20min", label: "Por dia é o suficiente", icon: <Activity className="h-5 w-5" /> },
+          ].map((s) => (
+            <div key={s.label} className="flex flex-col items-center gap-2">
+              <span className="text-blood">{s.icon}</span>
+              <p className="font-display text-4xl md:text-6xl text-blood text-shadow-blood leading-none">
+                {s.num}
+              </p>
+              <p className="font-display text-xs md:text-sm uppercase tracking-[0.2em] text-muted-foreground">
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* PROBLEMA: 25% do ano */}
       <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
