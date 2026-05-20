@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, Check, Shield, Lock, Zap, Skull, Crown as CrownIcon, Flame } from "lucide-react";
+import { ArrowDown, Check, Shield, Lock, Zap, Skull, Crown as CrownIcon, Flame, Brain, Activity, Quote, TrendingUp, Users } from "lucide-react";
 import { HonorButton } from "@/components/sections/HonorButton";
 import { SectionDivider } from "@/components/sections/SectionDivider";
 import heroImg from "@/assets/hero-transformation.jpg";
@@ -8,6 +8,9 @@ import demonsImg from "@/assets/demons.jpg";
 import phaseDemolition from "@/assets/phase-demolition.jpg";
 import phaseReconstruction from "@/assets/phase-reconstruction.jpg";
 import phaseExpansion from "@/assets/phase-expansion.jpg";
+import neuroscienceImg from "@/assets/neuroscience.jpg";
+import beforeAfterImg from "@/assets/before-after.jpg";
+import warriorFocusImg from "@/assets/warrior-focus.jpg";
 import {
   Accordion,
   AccordionContent,
