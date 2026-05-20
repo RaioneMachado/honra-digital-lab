@@ -88,7 +88,7 @@ function Index() {
       </section>
 
       {/* PROBLEMA: 25% do ano */}
-      <section className="section-light relative px-4 py-20 border-t border-border/50">
+      <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
             Já se foi 25% do ano... E você jurou que <span className="text-blood">2026 seria outro</span>
@@ -141,7 +141,7 @@ function Index() {
       </section>
 
       {/* DOMESTICADO */}
-      <section className="section-light relative px-4 py-20">
+      <section className="section-dark relative px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Você imagina que está vivendo... mas está só <span className="text-blood">sobrevivendo</span>
@@ -324,7 +324,7 @@ function Index() {
       </section>
 
       {/* +10.000 HOMENS */}
-      <section className="section-light px-4 py-20 border-b border-border/50">
+      <section className="section-dark px-4 py-20 border-b border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Mais de <span className="text-blood">10.000 homens</span> já romperam o ciclo da mediocridade
@@ -420,7 +420,7 @@ function Index() {
       </section>
 
       {/* RESULTADO */}
-      <section className="section-light px-4 py-20 border-y border-border/50">
+      <section className="section-dark px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Após os <span className="text-blood">2 meses de total foco</span>,<br />você já não será o mesmo.
@@ -487,7 +487,7 @@ function Index() {
       </section>
 
       {/* BÔNUS */}
-      <section className="section-light px-4 py-20 border-y border-border/50">
+      <section className="section-dark px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
@@ -581,7 +581,7 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section className="section-light px-4 py-20 border-t border-border/50">
+      <section className="section-dark px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
             Dúvidas mais comuns
