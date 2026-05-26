@@ -218,6 +218,67 @@ function Index() {
         </div>
       </section>
 
+      {/* TESTOSTERONA / FAMÍLIA / RESPONSABILIDADE */}
+      <section className="section-dark relative px-4 py-20 border-t border-border/50">
+        <div className="mx-auto max-w-3xl">
+          <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood mb-6 text-center">
+            A verdade que ninguém vai ter coragem de te dizer:
+          </p>
+          <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
+            Você não está cansado. Você está <span className="text-blood">castrado.</span>
+          </h2>
+
+          <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
+            <p>
+              Sua testosterona está no chão. E não é "idade". É escolha. É o açúcar que você enfia goela abaixo,
+              o álcool de toda sexta, a pornografia que te suga todo dia, o sono de 5 horas, o sedentarismo, o estresse
+              crônico de uma vida que você nunca teve coragem de mudar.
+            </p>
+            <p className="text-foreground font-semibold">
+              O resultado? Um homem biologicamente apagado.
+            </p>
+            <ul className="space-y-3 pl-1">
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem libido para olhar sua mulher como homem.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem energia para brincar com seu filho no fim do dia.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem agressividade saudável para ir atrás do que quer no trabalho.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem presença, sem voz, sem peso. Um homem que ninguém respeita — nem você mesmo.</li>
+            </ul>
+
+            <p className="text-foreground border-l-4 border-blood pl-4 font-semibold">
+              E o pior é que você sabe. Você sente. Toda vez que se olha no espelho sem camisa. Toda vez que sua
+              mulher desvia o olhar. Toda vez que seu pai te liga e você finge que está tudo bem.
+            </p>
+
+            <p>
+              Você foi colocado nesse mundo para liderar uma casa. Para proteger. Para prover. Para ser o ponto de
+              segurança da sua mulher e o exemplo do seu filho. E hoje você é o quê? Um moleque adulto, refém do
+              celular, vivendo de promessas e desculpas.
+            </p>
+
+            <p className="text-foreground font-semibold">
+              Sua família não precisa do seu choro. Precisa da sua coluna ereta.
+            </p>
+
+            <p>
+              Assumir responsabilidade não é frase de motivação. É a única coisa que separa um homem de uma criança
+              de barba. É acordar cedo mesmo doendo. É treinar mesmo sem vontade. É cortar o que te enfraquece
+              mesmo gostando. É olhar para a sua família e dizer: <strong className="text-foreground">"A partir de
+              hoje, o problema desta casa sou eu — e a solução também."</strong>
+            </p>
+
+            <p className="text-foreground bg-blood/10 p-4 rounded-md border border-blood/30">
+              Se você não reerguer sua testosterona, sua disciplina e o seu papel de homem nos próximos 2 meses,
+              outro homem vai ocupar o espaço que era pra ser seu. No trabalho. Na cabeça do seu filho. E, mais cedo
+              ou mais tarde, na cama da sua mulher.
+            </p>
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <HonorButton size="lg">Vou assumir minha casa</HonorButton>
+          </div>
+        </div>
+      </section>
+
       {/* SAÍDA - PREÇO BRUTAL */}
       <section className="section-dark relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
