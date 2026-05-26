@@ -8,6 +8,7 @@ import demonsImg from "@/assets/demons.jpg";
 import phaseDemolition from "@/assets/phase-demolition.jpg";
 import phaseReconstruction from "@/assets/phase-reconstruction.jpg";
 import phaseExpansion from "@/assets/phase-expansion.jpg";
+import livrosBonus from "@/assets/livros-bonus.jpg";
 import {
   Accordion,
   AccordionContent,
