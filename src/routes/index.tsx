@@ -552,7 +552,8 @@ function Index() {
 
       {/* BÔNUS */}
       <section className="section-light px-4 py-20 border-y border-border/50">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-5xl">
+         <div className="max-w-3xl mx-auto text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Para blindar sua transformação <span className="text-blood">duradoura</span>
@@ -570,6 +571,7 @@ function Index() {
               homem possui e assegurar que você não apenas mude — mas <strong className="text-foreground">se mantenha mudado</strong>.
             </p>
           </div>
+         </div>
 
           {/* BÔNUS #4 — BIBLIOTECA DE LIVROS */}
           <div className="mt-16 grid gap-10 md:grid-cols-2 items-center text-left">
