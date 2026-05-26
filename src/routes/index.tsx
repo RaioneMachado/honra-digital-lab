@@ -91,19 +91,19 @@ function Index() {
       <section className="section-light relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
-            Já se foi 25% do ano... E você jurou que <span className="text-blood">2026 seria outro</span>
+            Estamos quase na metade do ano... E você jurou que <span className="text-blood">esse seria diferente</span>
           </h2>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
-            <p>Recorda do ânimo de janeiro? Das juras que fez a si próprio na passagem do ano?</p>
-            <p>Mas encare com sinceridade sua rotina de hoje... suas relações... seus costumes...</p>
-            <p className="text-foreground">É praticamente a mesma vida sem brilho de um ano atrás.</p>
+            <p>Recorda do ânimo de janeiro? Das juras que fez a si próprio, à sua mulher, aos seus filhos, ao seu pai?</p>
+            <p>Mas encare com sinceridade sua rotina de hoje... seu corpo... sua testosterona no chão... seu casamento esfriando... seus filhos crescendo sem te ver presente de verdade.</p>
+            <p className="text-foreground">É praticamente a mesma vida sem brilho de seis meses atrás — só que com mais barriga, menos cabelo e menos vontade na cama.</p>
             <p className="text-foreground font-semibold border-l-4 border-blood pl-4">
-              E o pior: você já está fantasiando 2027 como "o ano definitivo" — a mesma mentira que
-              repete para si mesmo há quantas temporadas?
+              E o pior: você já está fantasiando o ano que vem como "o ano definitivo" — a mesma mentira covarde que
+              você repete para si há quantos anos? Enquanto isso sua família te observa fracassar em silêncio.
             </p>
             <p>
-              Enquanto isso, quem está à sua volta avança. E você segue parado no mesmo ponto,
-              jogando fora mais um ano do seu potencial.
+              Enquanto isso, quem está à sua volta avança, vira referência, sustenta a casa de cabeça erguida. E você
+              segue parado no mesmo ponto, terceirizando a responsabilidade da sua própria vida.
             </p>
           </div>
         </div>
@@ -116,25 +116,26 @@ function Index() {
             A questão que você foge de encarar:
           </p>
           <h3 className="font-display text-2xl md:text-3xl leading-tight text-foreground">
-            Se em 365 dias você não conseguiu se transformar... por que acreditar que vai dar certo no ano que vem?
+            Se em quase 6 meses você não conseguiu se transformar... por que acreditar que vai dar certo nos próximos 6?
           </h3>
           <div className="mt-8 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
             <p className="text-foreground font-semibold">
               Sem nenhum sistema concreto. Sem nenhum método validado. Só com a mesma "vontade"
               que te traiu por 4 meses seguidos.
             </p>
-            <p>Em 1 ano, você vai estar:</p>
+            <p>No fim do ano, você vai estar:</p>
             <ul className="space-y-3 pl-1">
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Encarando no espelho o mesmo homem insatisfeito de agora?</li>
-              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Recebendo o mesmo salário, repetindo a mesma rotina sem sentido?</li>
-              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente se tornará o homem que sempre soube ser capaz de ser?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Encarando no espelho o mesmo homem flácido, sem testosterona, sem brilho nos olhos?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Recebendo o mesmo salário, sem sustentar a sua família como prometeu, repetindo a mesma rotina sem sentido?</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Vendo seu filho crescer com vergonha do pai que tem, e sua mulher perdendo o respeito por você dia após dia?</li>
+              <li className="flex gap-3 text-foreground font-semibold"><span className="text-blood mt-1">›</span> Ou finalmente vai assumir a responsabilidade de ser o homem que sua família precisa que você seja?</li>
             </ul>
             <p className="text-foreground bg-blood/10 p-4 rounded-md border border-blood/30">
-              Porque algo é certo: <strong>2026 vai terminar — com ou sem a sua virada.</strong>
+              Porque algo é certo: <strong>o ano vai acabar — com ou sem a sua virada.</strong>
             </p>
             <p className="text-foreground">
-              A questão é se você vai começar 2027 sendo a mesma pessoa... ou alguém
-              totalmente refeito.
+              A questão é se você vai virar a chave nos próximos 2 meses... ou continuar covarde, terceirizando culpa
+              e empurrando para o ano que vem o que você devia ter resolvido como homem hoje.
             </p>
           </div>
         </div>
@@ -156,7 +157,8 @@ function Index() {
               pensando na segunda.
             </p>
             <p className="text-foreground font-semibold">
-              E é dessa forma que você joga fora semanas. Meses. Anos por completo.
+              E é dessa forma que você joga fora semanas. Meses. Anos por completo — enquanto sua testosterona despenca,
+              seu corpo apodrece e seu papel de homem dentro de casa vira piada.
             </p>
           </div>
 
@@ -205,13 +207,74 @@ function Index() {
             </div>
 
             <div className="mt-6 p-4 border border-blood/30 rounded-md bg-blood/5">
-              <p className="text-foreground"><strong>2026 já se aproxima do meio.</strong></p>
-              <p className="text-muted-foreground mt-1">Mas o seu amansamento pode terminar agora.</p>
+              <p className="text-foreground"><strong>Estamos quase na metade do ano.</strong></p>
+              <p className="text-muted-foreground mt-1">Mas o seu amansamento — e a vergonha que sua família sente em silêncio — pode terminar agora.</p>
             </div>
 
             <div className="mt-8 flex justify-center">
               <HonorButton>Quero romper essa cela!</HonorButton>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTOSTERONA / FAMÍLIA / RESPONSABILIDADE */}
+      <section className="section-dark relative px-4 py-20 border-t border-border/50">
+        <div className="mx-auto max-w-3xl">
+          <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-blood mb-6 text-center">
+            A verdade que ninguém vai ter coragem de te dizer:
+          </p>
+          <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
+            Você não está cansado. Você está <span className="text-blood">castrado.</span>
+          </h2>
+
+          <div className="mt-10 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
+            <p>
+              Sua testosterona está no chão. E não é "idade". É escolha. É o açúcar que você enfia goela abaixo,
+              o álcool de toda sexta, a pornografia que te suga todo dia, o sono de 5 horas, o sedentarismo, o estresse
+              crônico de uma vida que você nunca teve coragem de mudar.
+            </p>
+            <p className="text-foreground font-semibold">
+              O resultado? Um homem biologicamente apagado.
+            </p>
+            <ul className="space-y-3 pl-1">
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem libido para olhar sua mulher como homem.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem energia para brincar com seu filho no fim do dia.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem agressividade saudável para ir atrás do que quer no trabalho.</li>
+              <li className="flex gap-3"><span className="text-blood mt-1">›</span> Sem presença, sem voz, sem peso. Um homem que ninguém respeita — nem você mesmo.</li>
+            </ul>
+
+            <p className="text-foreground border-l-4 border-blood pl-4 font-semibold">
+              E o pior é que você sabe. Você sente. Toda vez que se olha no espelho sem camisa. Toda vez que sua
+              mulher desvia o olhar. Toda vez que seu pai te liga e você finge que está tudo bem.
+            </p>
+
+            <p>
+              Você foi colocado nesse mundo para liderar uma casa. Para proteger. Para prover. Para ser o ponto de
+              segurança da sua mulher e o exemplo do seu filho. E hoje você é o quê? Um moleque adulto, refém do
+              celular, vivendo de promessas e desculpas.
+            </p>
+
+            <p className="text-foreground font-semibold">
+              Sua família não precisa do seu choro. Precisa da sua coluna ereta.
+            </p>
+
+            <p>
+              Assumir responsabilidade não é frase de motivação. É a única coisa que separa um homem de uma criança
+              de barba. É acordar cedo mesmo doendo. É treinar mesmo sem vontade. É cortar o que te enfraquece
+              mesmo gostando. É olhar para a sua família e dizer: <strong className="text-foreground">"A partir de
+              hoje, o problema desta casa sou eu — e a solução também."</strong>
+            </p>
+
+            <p className="text-foreground bg-blood/10 p-4 rounded-md border border-blood/30">
+              Se você não reerguer sua testosterona, sua disciplina e o seu papel de homem nos próximos 2 meses,
+              outro homem vai ocupar o espaço que era pra ser seu. No trabalho. Na cabeça do seu filho. E, mais cedo
+              ou mais tarde, na cama da sua mulher.
+            </p>
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <HonorButton size="lg">Vou assumir minha casa</HonorButton>
           </div>
         </div>
       </section>
