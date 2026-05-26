@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, Check, Shield, Lock, Zap, Skull, Crown as CrownIcon, Flame, Brain, Activity, Quote, TrendingUp, Users } from "lucide-react";
+import { ArrowDown, Check, Shield, Lock, Zap, Skull, Crown as CrownIcon, Flame } from "lucide-react";
 import { HonorButton } from "@/components/sections/HonorButton";
 import { SectionDivider } from "@/components/sections/SectionDivider";
 import heroImg from "@/assets/hero-transformation.jpg";
@@ -8,9 +8,6 @@ import demonsImg from "@/assets/demons.jpg";
 import phaseDemolition from "@/assets/phase-demolition.jpg";
 import phaseReconstruction from "@/assets/phase-reconstruction.jpg";
 import phaseExpansion from "@/assets/phase-expansion.jpg";
-import neuroscienceImg from "@/assets/neuroscience.jpg";
-import beforeAfterImg from "@/assets/before-after.jpg";
-import warriorFocusImg from "@/assets/warrior-focus.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -90,31 +87,8 @@ function Index() {
         </div>
       </section>
 
-      {/* STATS BAR */}
-      <section className="section-dark border-y border-blood/30 px-4 py-12 md:py-16 relative">
-        <div className="absolute inset-0 bg-radial-blood opacity-30 pointer-events-none" />
-        <div className="relative mx-auto max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {[
-            { num: "+10.000", label: "Homens despertados", icon: <Users className="h-5 w-5" /> },
-            { num: "63", label: "Dias de protocolo", icon: <Flame className="h-5 w-5" /> },
-            { num: "94%", label: "Relatam transformação real", icon: <TrendingUp className="h-5 w-5" /> },
-            { num: "20min", label: "Por dia é o suficiente", icon: <Activity className="h-5 w-5" /> },
-          ].map((s) => (
-            <div key={s.label} className="flex flex-col items-center gap-2">
-              <span className="text-blood">{s.icon}</span>
-              <p className="font-display text-4xl md:text-6xl text-blood text-shadow-blood leading-none">
-                {s.num}
-              </p>
-              <p className="font-display text-xs md:text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                {s.label}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* PROBLEMA: 25% do ano */}
-      <section className="section-dark relative px-4 py-20 border-t border-border/50">
+      <section className="section-light relative px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight">
             Já se foi 25% do ano... E você jurou que <span className="text-blood">2026 seria outro</span>
@@ -167,7 +141,7 @@ function Index() {
       </section>
 
       {/* DOMESTICADO */}
-      <section className="section-dark relative px-4 py-20">
+      <section className="section-light relative px-4 py-20">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Você imagina que está vivendo... mas está só <span className="text-blood">sobrevivendo</span>
@@ -350,7 +324,7 @@ function Index() {
       </section>
 
       {/* +10.000 HOMENS */}
-      <section className="section-dark px-4 py-20 border-b border-border/50">
+      <section className="section-light px-4 py-20 border-b border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Mais de <span className="text-blood">10.000 homens</span> já romperam o ciclo da mediocridade
@@ -446,7 +420,7 @@ function Index() {
       </section>
 
       {/* RESULTADO */}
-      <section className="section-dark px-4 py-20 border-y border-border/50">
+      <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
             Após os <span className="text-blood">2 meses de total foco</span>,<br />você já não será o mesmo.
@@ -513,7 +487,7 @@ function Index() {
       </section>
 
       {/* BÔNUS */}
-      <section className="section-dark px-4 py-20 border-y border-border/50">
+      <section className="section-light px-4 py-20 border-y border-border/50">
         <div className="mx-auto max-w-3xl text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Bônus exclusivos</p>
           <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
@@ -531,142 +505,6 @@ function Index() {
               Eles foram pensados para acelerar a sua mudança, mirar nas falhas que todo
               homem possui e assegurar que você não apenas mude — mas <strong className="text-foreground">se mantenha mudado</strong>.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CIÊNCIA APLICADA */}
-      <section className="section-dark px-4 py-20 border-t border-border/50 relative">
-        <div className="absolute inset-0 bg-radial-blood opacity-25 pointer-events-none" />
-        <div className="relative mx-auto max-w-5xl">
-          <p className="text-center font-display text-sm uppercase tracking-[0.3em] text-blood">
-            Ciência aplicada — não papo de coach
-          </p>
-          <h2 className="mt-3 text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Por que <span className="text-blood">funciona</span> — mesmo quando tudo já falhou
-          </h2>
-
-          <div className="mt-10 rounded-xl overflow-hidden shadow-brutal ring-1 ring-blood/30">
-            <img src={neuroscienceImg} alt="Plasticidade neural — reprogramação cerebral" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
-          </div>
-
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
-            {[
-              {
-                icon: <Brain className="h-7 w-7" />,
-                stat: "66 dias",
-                title: "Plasticidade neural",
-                desc: "Estudo da University College London (Lally et al., 2010) provou: o cérebro precisa de uma média de 66 dias para consolidar um novo padrão automático. Por isso 2 meses de total foco — não 7 nem 21.",
-              },
-              {
-                icon: <Activity className="h-7 w-7" />,
-                stat: "Dopamina",
-                title: "O circuito sequestrado",
-                desc: "Cada notificação, scroll e estímulo barato eleva sua linha de base dopaminérgica. O resultado: nada na vida real entrega prazer suficiente. O protocolo restaura essa linha em poucas semanas.",
-              },
-              {
-                icon: <Shield className="h-7 w-7" />,
-                stat: "Córtex pré-frontal",
-                title: "O músculo da disciplina",
-                desc: "É o córtex pré-frontal que decide entre impulso e propósito. Igual a qualquer músculo, atrofia quando ignorado — e cresce com estresse controlado e repetição diária.",
-              },
-            ].map((c) => (
-              <div key={c.title} className="bg-card border border-border rounded-xl p-6 hover:border-blood/50 transition-colors">
-                <div className="flex items-center gap-3 text-blood">{c.icon}<span className="font-display text-2xl md:text-3xl text-shadow-blood">{c.stat}</span></div>
-                <h3 className="mt-4 font-display text-lg md:text-xl uppercase tracking-wide text-foreground">{c.title}</h3>
-                <p className="mt-3 text-sm md:text-base text-muted-foreground leading-relaxed">{c.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <p className="mt-10 text-center text-sm text-muted-foreground italic max-w-2xl mx-auto">
-            Referências: Lally P. et al., European Journal of Social Psychology (2010); Huberman A., Stanford Neurobiology (2021); Newport C., Deep Work (2016).
-          </p>
-        </div>
-      </section>
-
-      {/* ANTES / DEPOIS */}
-      <section className="section-dark px-4 py-20 border-t border-border/50">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            Antes do protocolo. <span className="text-blood">Depois.</span>
-          </h2>
-
-          <div className="mt-10 rounded-xl overflow-hidden shadow-brutal ring-1 ring-blood/30">
-            <img src={beforeAfterImg} alt="Antes e depois do protocolo" width={1920} height={1024} loading="lazy" className="w-full h-auto block" />
-          </div>
-
-          <div className="mt-10 grid md:grid-cols-2 gap-6">
-            <div className="bg-card border border-border rounded-xl p-6 md:p-8">
-              <p className="font-display text-sm uppercase tracking-[0.3em] text-muted-foreground">Antes</p>
-              <ul className="mt-5 space-y-3 text-muted-foreground">
-                {[
-                  "Refém de vícios digitais e dopamina barata",
-                  "Vive reagindo — ninguém pilota a própria vida",
-                  "Promete na segunda, desiste na quarta",
-                  "Energia drenada por gente, app e ruído",
-                  "Olha no espelho e não reconhece o que vê",
-                ].map((i) => (
-                  <li key={i} className="flex gap-3"><span className="text-muted-foreground/60 mt-1">✕</span>{i}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="bg-card border-2 border-blood/50 rounded-xl p-6 md:p-8 shadow-blood">
-              <p className="font-display text-sm uppercase tracking-[0.3em] text-blood">Depois</p>
-              <ul className="mt-5 space-y-3 text-foreground">
-                {[
-                  "Comanda a própria atenção — escolhe onde foca",
-                  "Disciplina automática: não depende mais de vontade",
-                  "Acorda com missão clara e dorme em paz",
-                  "Energia blindada — protege seu tempo como ouro",
-                  "Presença que impõe respeito sem precisar gritar",
-                ].map((i) => (
-                  <li key={i} className="flex gap-3"><Check className="h-5 w-5 text-blood flex-shrink-0 mt-0.5" />{i}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div className="mt-10 flex justify-center">
-            <HonorButton size="lg">Quero estar do lado direito</HonorButton>
-          </div>
-        </div>
-      </section>
-
-      {/* DEPOIMENTOS */}
-      <section className="section-dark px-4 py-20 border-t border-border/50 relative">
-        <div className="absolute inset-0 bg-radial-blood opacity-20 pointer-events-none" />
-        <div className="relative mx-auto max-w-5xl">
-          <p className="text-center font-display text-sm uppercase tracking-[0.3em] text-blood">
-            Não acredite em mim
-          </p>
-          <h2 className="mt-3 text-center font-display text-3xl md:text-5xl uppercase tracking-tight leading-tight">
-            O que os <span className="text-blood">guerreiros</span> estão dizendo
-          </h2>
-
-          <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[
-              { name: "JONAS", age: 32, text: "Tudo que disseram que eu carregaria pro resto da vida... consegui superar em 2 meses. Sem terapia, sem remédio. Só protocolo." },
-              { name: "RAFAEL", age: 28, text: "Larguei pornografia, joguinho e Instagram em 3 semanas. Não foi força de vontade. O sistema simplesmente desliga o gatilho." },
-              { name: "MATHEUS", age: 25, text: "A primeira semana já provocou mais mudança real na minha cabeça do que 4 anos de faculdade de psicologia." },
-              { name: "DIEGO", age: 35, text: "Tinha pavor de acordar segunda. Hoje sou o primeiro do escritório, antes do nascer do sol, sem alarme. Outro homem." },
-              { name: "BRUNO", age: 41, text: "Achei que aos 40 já era tarde. Errei. Em 60 dias recuperei a versão de mim que eu tinha enterrado." },
-              { name: "LUCAS", age: 23, text: "Cresci ouvindo que era preguiçoso. Não era. Estava amansado. Valhalla Foco quebrou essa amarra de vez." },
-            ].map((t) => (
-              <figure key={t.name} className="bg-card border border-border rounded-xl p-6 hover:border-blood/50 transition-colors">
-                <Quote className="h-6 w-6 text-blood" />
-                <blockquote className="mt-3 text-sm md:text-base text-muted-foreground leading-relaxed italic">
-                  "{t.text}"
-                </blockquote>
-                <figcaption className="mt-5 font-display uppercase tracking-wider text-foreground">
-                  {t.name} <span className="text-muted-foreground">— {t.age} anos</span>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-
-          <div className="mt-12 rounded-xl overflow-hidden shadow-brutal ring-1 ring-blood/30">
-            <img src={warriorFocusImg} alt="Guerreiro em foco diante do fogo" width={1536} height={864} loading="lazy" className="w-full h-auto block" />
           </div>
         </div>
       </section>
@@ -743,7 +581,7 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section className="section-dark px-4 py-20 border-t border-border/50">
+      <section className="section-light px-4 py-20 border-t border-border/50">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-display text-3xl md:text-5xl uppercase tracking-tight">
             Dúvidas mais comuns
