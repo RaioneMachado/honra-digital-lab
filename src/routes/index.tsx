@@ -570,6 +570,58 @@ function Index() {
               homem possui e assegurar que você não apenas mude — mas <strong className="text-foreground">se mantenha mudado</strong>.
             </p>
           </div>
+
+          {/* BÔNUS #4 — BIBLIOTECA DE LIVROS */}
+          <div className="mt-16 grid gap-10 md:grid-cols-2 items-center text-left">
+            <div className="relative">
+              <div className="absolute -inset-3 bg-blood/20 blur-2xl rounded-2xl" />
+              <img
+                src={livrosBonus}
+                alt="Mais de 100 livros em PDF de desenvolvimento pessoal e finanças"
+                className="relative rounded-xl border-2 border-blood/40 shadow-blood w-full h-auto"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <p className="font-display text-xs md:text-sm uppercase tracking-[0.3em] text-blood">
+                Bônus #4 — Biblioteca de Guerra
+              </p>
+              <h3 className="mt-3 font-display text-2xl md:text-4xl uppercase tracking-tight leading-tight text-foreground">
+                Mais de <span className="text-blood">100 livros em PDF</span> de desenvolvimento pessoal e como dominar o dinheiro
+              </h3>
+              <div className="mt-5 space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
+                <p className="text-foreground font-semibold">
+                  Você quer conquistar o mundo. Mas ainda não aprendeu a lidar com os trocados que entram no seu bolso.
+                </p>
+                <p>
+                  Para de mentir pra si mesmo. Como é que você vai sustentar uma família, comprar a casa, dar o futuro
+                  que os seus prometeram — se o pouco que cai na sua conta evapora antes do fim do mês? Se o cartão te
+                  controla, se você não sabe pra onde foi o seu salário, se a sua mulher pede algo simples e você precisa
+                  abaixar a cabeça e dizer "agora não dá"?
+                </p>
+                <p>
+                  <strong className="text-foreground">Homem que não domina dinheiro é refém.</strong> Refém do patrão,
+                  do banco, do boleto, da vergonha de não conseguir prover. E nenhum império se constrói em cima de um
+                  homem quebrado por dentro e duro por fora.
+                </p>
+                <p>
+                  Por isso eu estou colocando na sua mão uma biblioteca com <strong className="text-foreground">mais de
+                  100 livros em PDF</strong> — os mesmos que mudaram a cabeça de quem hoje vive a vida que você ainda
+                  só sonha. Mentalidade, disciplina, relacionamentos, influência, propósito e, principalmente,
+                  <strong className="text-foreground"> como pensar, ganhar, multiplicar e proteger dinheiro</strong>.
+                </p>
+                <p>
+                  Mindset, A Coragem de Ser Imperfeito, Essencialismo, As 5 Linguagens do Amor, Como Fazer Amigos e
+                  Influenciar Pessoas, O Jeito Harvard de Ser Feliz — e mais de 90 outros clássicos que custariam
+                  uma fortuna para reunir um por um.
+                </p>
+                <p className="text-foreground font-semibold">
+                  Acaba aqui a desculpa de "não tive acesso". A partir de hoje, ou você lê e age — ou aceita que escolheu
+                  continuar onde está.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
